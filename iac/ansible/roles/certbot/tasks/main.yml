@@ -1,0 +1,30 @@
+---
+# tasks file for certbot
+
+- name: Ensure certboot and plugins are installed.
+  apt:
+    name: ['certbot', 'python-certbot-nginx', 'python3-certbot-dns-cloudflare']
+    state: present
+
+- name: Ensure letsencrypt folders are deleted
+  file:
+    path: '{{ item }}'
+    state: absent
+  with_items:
+    - /etc/letsencrypt/archive/loncar.net
+    - /etc/letsencrypt/live/loncar.net
+    - /etc/letsencrypt/renewal/loncar.net.conf
+
+- name: Put Cloudflare credentials INI file in place
+  copy:
+    src: cloudflare.ini
+    dest: /tmp/cloudflare.ini
+    mode: 0600
+
+- name: Create SSL Certificate with certbot
+  command: certbot certonly --dns-cloudflare --dns-cloudflare-credentials /tmp/cloudflare.ini -d loncar.net -d www.loncar.net
+
+- name: Remove Cloudflare credentials INI file
+  file:
+    path: /tmp/cloudflare.ini
+    state: absent

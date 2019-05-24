@@ -1,0 +1,18 @@
+---
+
+- name: Provision Hugo blog for loncar.net domain
+  hosts: all
+  become: yes
+  gather_facts: yes
+
+  vars:
+   - remote_user_name: deploy
+
+  roles:
+    - role: holms.fqdn
+      fqdn: www.loncar.net
+      hostname: loncar
+
+    - role: certbot
+
+    - role: nginx

@@ -1,0 +1,37 @@
+server {
+    root /var/www/loncar.net/public;
+
+    index index.html;
+
+    server_name loncar.net www.loncar.net;
+
+    access_log /var/log/nginx/loncar.net.access.log;
+    error_log /var/log/nginx/loncar.net.error.log;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+
+    listen [::]:443 ssl ipv6only=on;
+    listen 443 ssl;
+    ssl_certificate /etc/letsencrypt/live/loncar.net/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/loncar.net/privkey.pem;
+    include /etc/letsencrypt/options-ssl-nginx.conf;
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
+}
+
+server {
+    if ($host = www.loncar.net) {
+        return 301 https://$host$request_uri;
+    }
+
+    if ($host = loncar.net) {
+        return 301 https://$host$request_uri;
+    }
+
+    listen 80;
+    listen [::]:80;
+
+    server_name loncar.net www.loncar.net;
+    return 404;
+}
