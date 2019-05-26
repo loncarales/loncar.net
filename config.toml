@@ -76,10 +76,15 @@ url = "/about/"
 
 [[menu.main]]
 name = "Blog"
-weight = 1
+weight = 2
 url = "/posts/"
 
 [[menu.main]]
 name = "Resume"
 weight = 3
 url = "/resume/"
+
+[[menu.main]]
+name = "Snippets"
+weight = 4
+url = "/snippets/"
