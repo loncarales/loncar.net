@@ -23,3 +23,5 @@ For a secured route using edge termination, we need:
 The client provided me with private keys and certificates. The private keys were already in [PEM](https://en.wikipedia.org/wiki/X.509#Certificate_filename_extensions) format, but the certificates were PKCS7 DER-encoded. P7B certificates are Base64 encoded ASCII files and are only supported on Windows OS, [Apache Tomcat](https://tomcat.apache.org/), so we need to convert P7B to PEM format.
 
 Take a look at the following snippet: [Extract all certificate chain from DER-encoded .p7b file]({{< ref "extract-certificates-from-p7b.md" >}})
+
+> And remember, contributions earn you karma. 😜

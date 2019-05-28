@@ -1,5 +1,5 @@
 +++
-date = "2019-03-25"
+date = "2019-05-12"
 title = "Resolve Git merge conflicts the unpainful way"
 slug = "resolve-git-merge-conflicts"
 tags = ["Git", "P4Merge"]
@@ -33,42 +33,42 @@ P4Merge show you these panes:
 ### General tools
 
 ```bash
-git status
+$ git status
 ```
 > The status command is in frequent use when a working with Git and during a merge it will help identify conflicted files.
 
 ```bash
-git log --merge
+$ git log --merge
 ```
 > Passing the `--merge` argument to the git log command will produce a log with a list of commits that conflict between the merging branches.
 
 ```bash
-git diff
+$ git diff
 ```
 > `diff` helps find differences between states of a repository/files. This is useful in predicting and preventing merge conflicts
 
 ### Tools for when git fails to start a merge
 
 ```bash
-git checkout
+$ git checkout
 ```
 > `checkout` can be used for undoing changes to files, or for changing branches
 
 ```bash
-git reset --mixed
+$ git reset --mixed
 ```
 > `reset` can be used to undo changes to the working directory and staging area.
 
 ### Tools for when git conflicts arise during a merge
 
 ```bash
-git merge --abort
+$ git merge --abort
 ```
 
 > Executing git merge with the `--abort` option will exit from the merge process and return the branch to the state before the merge began.
 
 ```bash
-git reset
+$ git reset
 ```
 
 > Git `reset` can be used during a merge conflict to reset conflicted files to a know good state
@@ -77,4 +77,18 @@ git reset
 
 <script src="https://embed.cacher.io/d4566a840e37fb44fdac1d940f2b48f52b5faf43.js?a=ce8f75fb31c151d6a24cdd9aac8cd4ae"></script>
 
-Take a look at the following snippet: [Git on Windows: Set up P4Merge as default mergetool]({{< ref "p4-merge-as-default-mergetool.md" >}})
+If you would like to setup P4Merge as your favourite git merging tool, take a look at the following snippet: 
+
+[Git on Windows: Set up P4Merge as default mergetool]({{< ref "p4-merge-as-default-mergetool.md" >}})
+
+You can configure your weapon of choice if you prefer, but you'll need to consult your tool's documentation for detailed instructions.
+
+Then, in case of a conflict, you invoke it by simply typing
+
+```bash
+$ git mergetool
+```
+
+You should keep in mind is that you can always undo a merge and go back to the state before the conflict occurred. You're always able to undo and start fresh.
+
+> And remember, contributions earn you karma. 😜
