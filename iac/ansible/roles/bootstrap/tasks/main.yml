@@ -1,0 +1,13 @@
+---
+
+- name: 'update apt cache'
+  apt:
+    update_cache: yes
+    cache_valid_time: 86400
+  tags: [ 'packages' ]
+
+- name: 'bootstrap server'
+  apt:
+    name: ['ca-certificates', 'python-apt', 'python-simplejson', 'apt-transport-https', 'gzip', 'lvm2', 'tar', 'unzip']
+    state: present
+  tags: [ 'packages' ]

@@ -1,0 +1,7 @@
+---
+
+- name: Generate static content and deploy it to loncar.net site
+  hosts: all
+
+- import_playbook: playbooks/generate-static-content.yml
+- import_playbook: playbooks/deploy-content.yml

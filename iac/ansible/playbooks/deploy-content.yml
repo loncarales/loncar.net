@@ -1,0 +1,20 @@
+---
+
+- name: Deploy static content
+  hosts: hugo
+  become: yes
+
+  tasks:
+  - name: Synchronize files in public folder and delete files in dest on the remote host that are not found in src of localhost.
+    synchronize:
+      src: "{{ inventory_dir }}/../../public"
+      dest: /var/www/loncar.net
+      delete: yes
+      recursive: yes
+      archive: no
+
+  - name: Set ownership of web files to www-data user
+    file:
+      path: /var/www/loncar.net/public
+      owner: www-data
+      recurse: yes

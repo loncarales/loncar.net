@@ -5,6 +5,10 @@ server {
 
     server_name loncar.net www.loncar.net;
 
+    if ($host = www.loncar.net) {
+        return 301 $scheme://loncar.net$request_uri;
+    }
+
     access_log /var/log/nginx/loncar.net.access.log;
     error_log /var/log/nginx/loncar.net.error.log;
 
@@ -22,7 +26,7 @@ server {
 
 server {
     if ($host = www.loncar.net) {
-        return 301 https://$host$request_uri;
+        return 301 https://loncar.net$request_uri;
     }
 
     if ($host = loncar.net) {

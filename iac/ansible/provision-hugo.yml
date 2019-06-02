@@ -1,7 +1,7 @@
 ---
 
 - name: Provision Hugo blog for loncar.net domain
-  hosts: all
+  hosts: hugo
   become: yes
   gather_facts: yes
 

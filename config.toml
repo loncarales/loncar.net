@@ -1,4 +1,4 @@
-baseurl = "https://www.loncar.net"
+baseurl = "https://loncar.net"
 title = "Aleš Lončar"
 
 theme = "hugo-coder"
@@ -13,7 +13,7 @@ pygmentsstyle = "b2"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-disqusShortname = "loncarales"
+disqusShortname = "loncar"
 
 [params]
     author = "Aleš Lončar"

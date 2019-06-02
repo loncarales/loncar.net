@@ -1,0 +1,22 @@
+---
+
+- name: Generate static content
+  hosts: localhost
+  vars:
+    ansible_user: ales
+
+  tasks:
+  - block:
+    - name: Remove static file folder
+      file:
+        path: "{{ inventory_dir }}/../../public"
+        state: absent
+
+    - name: Create static files with hugo 
+      command: hugo
+      args:
+        chdir: "{{ inventory_dir }}/../../"
+        creates: "{{ inventory_dir }}/../../public"
+      
+    become_user: '{{ ansible_user }}'
+    become: yes

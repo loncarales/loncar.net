@@ -18,7 +18,6 @@
     state: directory
     recurse: yes
     owner: www-data
-  register: www_root_directory
 
 - name: Add managed vhost config file for loncar.net
   template:
