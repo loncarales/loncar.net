@@ -1,6 +1,6 @@
 +++ 
 date = 2019-06-13T22:34:47+02:00
-title = "The Challenge: Create a minimalistic environment on Kuberntes to run a small Web application"
+title = "The Challenge: Create a minimalistic environment on Kubernetes to run a small Web application"
 slug = "the-challenge-minimalistic-environment-on-kubernetes" 
 tags = ["DIY", "Kubernetes", "Docker", "Helm", "GitLab CI/CD", "Jenkins", "Perl"]
 categories = ["Development", "Product", "Learn-by-Doing"]
