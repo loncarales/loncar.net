@@ -1,6 +1,6 @@
 +++ 
 date = "2019-05-12"
-title = "Git on Windows: Set up P4Merge as default mergetool"
+title = "Git for Windows: Set up P4Merge as default mergetool"
 slug = "p4-merge-as-default-mergetool"
 +++
 

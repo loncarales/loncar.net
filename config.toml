@@ -13,6 +13,7 @@ pygmentsstyle = "b2"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
+googleAnalytics = "UA-111608998-1"
 disqusShortname = "loncar"
 
 [params]
@@ -88,3 +89,8 @@ url = "/resume/"
 name = "Snippets"
 weight = 4
 url = "/snippets/"
+
+[[menu.main]]
+name = "Contact"
+weight = 5
+url = "/contact/"

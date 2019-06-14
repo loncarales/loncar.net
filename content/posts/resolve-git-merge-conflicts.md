@@ -79,7 +79,7 @@ $ git reset
 
 If you would like to setup P4Merge as your favourite git merging tool, take a look at the following snippet: 
 
-[Git on Windows: Set up P4Merge as default mergetool]({{< ref "p4-merge-as-default-mergetool.md" >}})
+[Git for Windows: Set up P4Merge as default mergetool]({{< ref "p4-merge-as-default-mergetool.md" >}})
 
 You can configure your weapon of choice if you prefer, but you'll need to consult your tool's documentation for detailed instructions.
 

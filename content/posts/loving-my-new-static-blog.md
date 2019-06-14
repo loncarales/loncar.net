@@ -3,7 +3,8 @@ date = 2019-05-29T22:39:34+02:00
 title = "Loving my new static Blog"
 slug = "loving-my-new-static-blog" 
 tags = ["Hugo", "GitHub", "Scaleway", "Packer", "Debian", "Go", "Terraform", "Ansible", "Nginx", "Certbot", "Let's Encrypt", "CloudFlare"]
-categories = ["Development", "Product"]
+categories = ["Development", "Product", "Learn-by-Doing"]
+series = ["Learn-by-Doing"]
 +++
 
 ## Static websites are coming back, just like vinyl LPs.
