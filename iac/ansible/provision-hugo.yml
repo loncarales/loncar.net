@@ -6,7 +6,7 @@
   gather_facts: yes
 
   vars:
-   - remote_user_name: deploy
+    - remote_user_name: deploy
 
   roles:
     - role: holms.fqdn

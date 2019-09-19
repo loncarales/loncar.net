@@ -1,0 +1,21 @@
+---
+
+- name: Renewe certificates for loncar.net domain
+  hosts: hugo
+  become: yes
+  gather_facts: yes
+
+  tasks:
+    - name: Put Cloudflare credentials INI file in place
+      copy:
+        src: '{{ playbook_dir }}/roles/certbot/files/cloudflare.ini'
+        dest: /tmp/cloudflare.ini
+        mode: 0600
+    
+    - name: Renewe SSL Certificate with certbot
+      command: certbot renew
+
+    - name: Remove Cloudflare credentials INI file
+      file:
+        path: /tmp/cloudflare.ini
+        state: absent
