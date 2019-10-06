@@ -16,7 +16,7 @@ The running environment can be a "control" virtual machine running on your lapto
 
 ## Using your favourite GNU/Linux distributions on Windows (enabling WSL)
 
-Recently I've got a task from one of my clients to create an immutable infrastructure in [OpenStack](https://www.openstack.org/) with [Terraform](https://www.terraform.io/) and Ansible. Provided scripts must be runnable from desktop machines running Windows 10. The Part of task deliverables was also information and documentation on how to install all required software on these machines. While installing OpenStack CLI and Terraform is pretty straightforward, it's not the same story with Ansible. As we already mention, we need a GNU/Linux environment for that, and therefore the Windows Subsystem for Linux is the answer. To make things a little more interesting, there were some limitations:
+Recently I've got a task from one of our clients to create an immutable and reusable infrastructure in [OpenStack](https://www.openstack.org/) with [Terraform](https://www.terraform.io/) and Ansible. Provided scripts must be runnable from desktop machines running Windows 10. The Part of task deliverables was also information and documentation on how to install all required software on these machines. While installing OpenStack CLI and Terraform is pretty straightforward, it's not the same story with Ansible. As we already mention, we need a GNU/Linux environment for that, and therefore the Windows Subsystem for Linux is the answer. To make things a little more interesting, there were some limitations:
 
 * Windows 10 laptops have build version 1809, so only WSL 1 can be installed
 * Due to Company Policy Linux Distributions can not be installed from the Microsoft Store
