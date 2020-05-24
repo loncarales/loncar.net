@@ -1,16 +1,21 @@
 ---
 # tasks file for nginx
 
-- name: Ensure nginx is installed.
+- name: Ensure nginx is installed
   apt:
     name: nginx
     state: present
 
-- name: Ensure nginx is started and enabled to start at boot.
+- name: Ensure nginx is started and enabled to start at boot
   service: 
     name: nginx 
     state: started
     enabled: yes
+
+- name: Copy dhparam to /etc/ssl folder
+  copy:
+    src: ffdhe4096.pem
+    dest: /etc/ssl/ffdhe4096.pem
 
 - name: Ensure www root directory for loncar.net exist
   file:
@@ -34,5 +39,6 @@
   file:
     src: /etc/nginx/sites-available/loncar.net.conf
     dest: /etc/nginx/sites-enabled/loncar.net
+    force: yes
     state: link
   notify: reload nginx

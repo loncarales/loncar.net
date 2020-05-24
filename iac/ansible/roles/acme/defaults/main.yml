@@ -1,0 +1,6 @@
+---
+
+cf_email: "xxxx@sss.com"
+cf_key: "sdfsdfsdfljlbjkljlkjsdfoiwje"
+domain_name: domanin.com
+ssl_certs_directory: /etc/nginx/certs/mydomain.com

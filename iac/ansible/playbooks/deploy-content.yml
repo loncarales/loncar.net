@@ -1,7 +1,7 @@
 ---
 
 - name: Deploy static content
-  hosts: hugo
+  hosts: hugo,loncar_net
   become: yes
 
   tasks:
@@ -12,9 +12,15 @@
       delete: yes
       recursive: yes
       archive: no
+      use_ssh_args: yes
 
   - name: Set ownership of web files to www-data user
     file:
       path: /var/www/loncar.net/public
       owner: www-data
       recurse: yes
+
+  - name: reload nginx
+    service: 
+      name: nginx 
+      state: reloaded
