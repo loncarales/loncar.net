@@ -1,3 +1,7 @@
+### Ansible ###
+# Inventory Grapher
+iac/ansible/graphs/*
+
 ### Vagrant ###
 # General
 .vagrant/*

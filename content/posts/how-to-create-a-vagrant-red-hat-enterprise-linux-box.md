@@ -2,7 +2,7 @@
 date = 2020-05-16T19:10:07+02:00
 title = "How to create a Vagrant Red Hat Enterprise Linux box"
 slug = "how-to-create-a-vagrant-red-hat-enterprise-linux-box"
-tags = ["RHEL", "VirtualBox", "Vagrant"]
+tags = ["RHEL", "Red Hat Enterprise Linux", "VirtualBox", "Vagrant"]
 categories = ["Development", "Work", "DevOps"]
 +++
 
@@ -157,3 +157,5 @@ $ vagrant package --output mynew.box
 # Add the Box into Your Vagrant Install
 $ vagrant box add mynewbox mynew.box # We may need to force it with --force
 ```
+
+> And remember, contributions earn you karma. 😜

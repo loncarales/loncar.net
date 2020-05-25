@@ -115,3 +115,5 @@ jcli help
 export JAVA_TOOL_OPTIONS="-Djavax.net.ssl.trustStore=${KEYSTOREFILE} -Djavax.net.ssl.trustStorePassword=${KEYSTOREPASS}"
 java -jar jenkins-cli.jar -s ${JENKINS_URL} help
 ```
+
+> And remember, contributions earn you karma. 😜
