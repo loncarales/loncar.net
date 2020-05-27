@@ -3,7 +3,7 @@
 - name: Generate static content
   hosts: localhost
   vars:
-    ansible_user: dummy
+    ansible_user: "{{ content_user }}"
 
   tasks:
   - block:

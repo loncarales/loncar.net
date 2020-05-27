@@ -39,18 +39,18 @@ $ terraform apply plan.out
 ```bash
 $ cd iac/ansible
 $ # Let's use ping module to check if our machine is up and running
-$ ansible hugo -i hosts.ini -l hugo -u deploy --private-key ../pki/id_rsa_deploy -m ping
+$ ansible hugo -i hosts.ini -u deploy --private-key ../pki/id_rsa_deploy -m ping
 $ # install requirements
 $ ansible-galaxy install -r requirements.yml
 $ # provision machine
-$ ansible-playbook -u deploy -i hosts.ini -l hugo --private-key ../pki/id_rsa_deploy provision-hugo.yml
+$ ansible-playbook -u deploy -i hosts.ini -l hugo --private-key ../pki/id_rsa_deploy -e cf_email=youremail.com -e cf_key=sdfsdfsdfljlbjkljlkjsdfoiwje provision-hugo.yml
 ```
 
 ## Generate static content and deploy it to the web server
 
 ```bash
 $ cd iac/ansible
-$ ansible-playbook -u deploy -i hosts.ini -l localhost,hugo --private-key ../pki/id_rsa_deploy -e ansible_user=dummy deploy-content.yml
+$ ansible-playbook -u deploy -i hosts.ini -l localhost,hugo --private-key ../pki/id_rsa_deploy -e content_user=local_user deploy-content.yml
 ```
 
 ## Testing with Vagrant

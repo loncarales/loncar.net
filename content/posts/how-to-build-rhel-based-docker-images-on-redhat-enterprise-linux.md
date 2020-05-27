@@ -15,7 +15,7 @@ The simple search on google "[install docker RHEL](https://is.gd/dSaOTl)" will l
 * [How To Install Docker on CentOS 7 / RHEL 7](https://www.itzgeek.com/how-tos/linux/centos-how-tos/installing-docker-on-centos-7-rhel-7-fedora-21.html)
 * [Install Docker CE on CentOS and RHEL 7](https://medium.com/better-programming/install-docker-ce-on-centos-or-rhel-7-48bb111cc635)
 
-These tutorials have one thing in common. They are explaining how we should install Docker CE on RHEL.
+These tutorials have one thing in common. They are explaining how we can install Docker CE on RHEL.
 
 **DON'T**
 
@@ -23,7 +23,7 @@ There are many reasons not to do this. First off all [Docker CE](https://docs.do
 
 {{< figure src="https://s3.eu-central-1.amazonaws.com/loncar.net/Docker+Supported+platforms.png" alt="Docker CE Engine Supported Platforms" caption="Docker CE Engine Supported Platforms" >}}
 
-## I've managed to install Docker CE
+## But we've managed to install Docker CE
 
 Sure but we'll probably have issues when building RHEL based Docker images. RHEL requires a subscription to install/update packages with [yum](http://yum.baseurl.org/). So if we want to create RHEL based images, we must have an active subscription. Docker CE will not pass the [Red Hat Subscription Management](https://access.redhat.com/products/red-hat-subscription-management/) information from the host into containers, and we don't want to add an active subscription to every Docker image we build. 😉
 

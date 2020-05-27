@@ -84,3 +84,9 @@ url = "/snippets/"
 name = "Contact"
 weight = 5
 url = "/contact/"
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

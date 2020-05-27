@@ -75,7 +75,7 @@ $ git reset
 
 ## Example: Creating a merge conflict
 
-<script src="https://embed.cacher.io/d4566a840e37fb44fdac1d940f2b48f52b5faf43.js?a=ce8f75fb31c151d6a24cdd9aac8cd4ae"></script>
+{{< gist loncarales 6e8f004e2d7f44144edf81134944a3bd >}}
 
 If you would like to setup P4Merge as your favourite git merging tool, take a look at the following snippet: 
 

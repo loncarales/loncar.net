@@ -14,4 +14,4 @@ Just a bunch of essential snippets and cheatsheets for Git I've collected over t
 * Git Flow Cheatsheet
 * Howto do Git housekeeping: to clean-up outdated branches in local and remote repositories
 
-<script src="https://embed.cacher.io/85516b890833a949aca91cc203254ba57d0ea941.js?a=fd7d88d74203e627608ce2fb9bbe54ea"></script>
+{{< gist loncarales 0086bd078965056d0a75775c8bdaf266 >}}

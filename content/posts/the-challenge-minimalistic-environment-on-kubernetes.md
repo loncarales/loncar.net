@@ -90,4 +90,4 @@ Each and every one of us is unique. Each of us also has it's own learning style.
 * gitlab-ci.yml
   * Simple GitLab CI/CD pipeline without deployment stage. It can be seen in action in [**Pipelines**](https://gitlab.com/loncarales/mojo-blog/pipelines) page.
 
-<script src="https://embed.cacher.io/d8073b880d36ab13adae10975c241cf32908ab42.js?a=c6ebf525c6364246a2fcb0375ab1f222"></script>
+{{< gist loncarales 905438be8dd4ed6ffc493e6249917127 >}}
