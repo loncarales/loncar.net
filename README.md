@@ -50,7 +50,7 @@ $ ansible-playbook -u deploy -i hosts.ini -l hugo --private-key ../pki/id_rsa_de
 
 ```bash
 $ cd iac/ansible
-$ ansible-playbook -u deploy -i hosts.ini -l localhost,hugo --private-key ../pki/id_rsa_deploy -e content_user=local_user deploy-content.yml
+$ ansible-playbook -u deploy -i hosts.ini -l localhost,hugo --private-key ../pki/id_rsa_deploy -e content_user=$USER deploy-content.yml
 ```
 
 ## Testing with Vagrant
