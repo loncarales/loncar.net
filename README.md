@@ -60,8 +60,7 @@ $ vagrant up
 # Only loncar_net host should be listed
 $ ansible-playbook -i hosts.ini -l loncar_net --list-hosts provision-hugo.yml
 # Install all requirements to run hugo generated static pages
-$ ansible-playbook -i hosts.ini -l loncar_net -e remote_user_name=vagrant -e cf_email=youremail.com -e cf_key=sdfsdfsdfljlbjkljlkjsdfoiwje provision-hugo.
-yml
+$ ansible-playbook -i hosts.ini -l loncar_net -e remote_user_name=vagrant -e cf_email=youremail.com -e cf_key=sdfsdfsdfljlbjkljlkjsdfoiwje provision-hugo.yml
 # Generate static content and deploy it to the web server
-$ ansible-playbook -i hosts.ini -l localhost,loncar_net -e remote_user_name=vagrant -e ansible_user=dummy deploy-content.yml
+$ ansible-playbook -i hosts.ini -l localhost,loncar_net -e remote_user_name=vagrant -e content_user=$USER deploy-content.yml
 ```

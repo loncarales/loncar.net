@@ -3,7 +3,7 @@ date = 2019-09-30T22:34:47+02:00
 title = "Using Ansible under Windows 10"
 slug = "using-ansible-under-windows-10" 
 tags = ["Ansible", "Windows 10", "WSL", "Python Virtualenv", "Ubuntu", "Homebrew"]
-categories = ["Development", "Work"]
+categories = ["Development", "Work", "DevOps"]
 +++
 
 {{< figure src="https://s3.eu-central-1.amazonaws.com/loncar.net/Ansible-Windows10.jpg" alt="Ansible - How to Install on Windows 10" caption="Ansible - How to Install on Windows 10" >}}

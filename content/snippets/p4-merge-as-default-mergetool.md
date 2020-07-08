@@ -4,7 +4,7 @@ title = "Git for Windows: Set up P4Merge as default mergetool"
 slug = "p4-merge-as-default-mergetool"
 +++
 
-{{< gist loncarales 7c91cdabdec32485931fa085a16c7089 >}}
+<script src="https://embed.cacher.io/d30338850b66fe45afa3149a092948f32b02fc44.js?a=3297f96f007adc619f63a55741a59a68&t=atom_one_dark"></script>
 
 ### Related Post
 

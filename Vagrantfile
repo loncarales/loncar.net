@@ -19,7 +19,7 @@ Vagrant.configure("2") do |config|
   # set auto_update to false, if you do NOT want to check the correct
   # additions version when booting this machine
   if Vagrant.has_plugin?("vagrant-vbguest")
-    config.vbguest.auto_update = false
+    config.vbguest.auto_update = true
   end
 
   # Vagrant Host Manager
@@ -32,9 +32,9 @@ Vagrant.configure("2") do |config|
   end
 
   # Every Vagrant development environment requires a box. You can search for
-  # boxes at https://vagrantcloud.com/search.
-  config.vm.box = "bento/debian-9.8"
-  config.vm.box_version = "201906.17.0"
+  # boxes at https://vagrantcloud.com/search
+  config.vm.box = "bento/debian-9.12"
+  config.vm.box_version = "202005.21.0"
   # Don't check for box update
   config.vm.box_check_update = false
 

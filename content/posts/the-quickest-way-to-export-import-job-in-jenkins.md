@@ -3,7 +3,7 @@ date = 2020-05-17T17:25:00+02:00
 title = "The quickest way to export/import job in Jenkins"
 slug = "the-quickest-way-to-export-import-job-in-jenkins" 
 tags = ["Jenkins", "Jenkins CLI"]
-categories = ["Development", "Work"]
+categories = ["Development", "Work", "DevOps"]
 +++
 
 For example, we have a scenario where we need to troubleshoot the current job, but we would like to do this on our local Jenkins instance running. Jenkins has a built-in command-line interface that allows users and administrators to access Jenkins from a script or shell environment. This can be convenient for scripting of routine tasks, bulk updates, troubleshooting, and more. With the Jenkins CLI, we can easily export job definition as XML and then later import that XML file to another Jenkins instance.

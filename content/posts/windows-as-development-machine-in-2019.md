@@ -3,7 +3,7 @@ date = "2019-05-15"
 title = "Windows as Development Machine in 2019"
 slug = "windows-as-development-machine-in-2019"
 tags = ["Microsoft", "Windows 10", "WSL", "Linux", "VirtualBox", "Agile", "DevOps", "Scoop", "Chocolatey", "Ansible"]
-categories = ["Development"]
+categories = ["Development", "DevOps"]
 +++
 
 {{< figure src="https://s3.eu-central-1.amazonaws.com/loncar.net/the_good_the_bad_and_the_ugly.png" alt="The Good, The Bad and The Ugly" caption="The Good, The Bad and The Ugly" >}}

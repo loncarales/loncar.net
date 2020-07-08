@@ -4,4 +4,4 @@ title = "Jenkins: configure .npmrc with authentication token to access the priva
 slug = "jenkins-configure-npmrc-with-authentication-token-to-access-the-private-npm-registry-on-nexus" 
 +++
 
-{{< gist loncarales ed5d2f9155db02225b2b2923f14a27a7 >}}
+<script src="https://embed.cacher.io/815131d15936ac43a1ae419559284fa17e0ba844.js?a=b4c98971377d248f43ccd6a3fc8b5392&t=atom_one_dark"></script>

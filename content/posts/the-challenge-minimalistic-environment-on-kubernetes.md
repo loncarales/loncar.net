@@ -4,7 +4,7 @@ title = "The Challenge: Create a minimalistic environment on Kubernetes to run a
 slug = "the-challenge-minimalistic-environment-on-kubernetes" 
 tags = ["DIY", "Kubernetes", "Docker", "Helm", "GitLab CI/CD", "Jenkins", "Perl"]
 categories = ["Development", "Product", "Learn-by-Doing"]
-series = ["Learn-by-Doing"]
+series = ["Learn-by-Doing", "DevOps"]
 +++
 
 {{< figure src="https://s3.eu-central-1.amazonaws.com/loncar.net/continuous-improvement-is-better-than-delayed-perfection.jpg" alt="Continuous improvement is better than delayed perfection. - Mark Twain" caption="Continuous improvement is better than delayed perfection. - Mark Twain" >}}
@@ -90,4 +90,4 @@ Each and every one of us is unique. Each of us also has it's own learning style.
 * gitlab-ci.yml
   * Simple GitLab CI/CD pipeline without deployment stage. It can be seen in action in [**Pipelines**](https://gitlab.com/loncarales/mojo-blog/pipelines) page.
 
-{{< gist loncarales 905438be8dd4ed6ffc493e6249917127 >}}
+<script src="https://embed.cacher.io/d5576a870d37ac43fba8159a0d2a1ba42e59ac14.js?a=4215a96de56766e93f89dad6844ebd57&t=atom_one_dark"></script>
