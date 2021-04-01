@@ -64,3 +64,7 @@ $ ansible-playbook -i hosts.ini -l loncar_net -e remote_user_name=vagrant -e cf_
 # Generate static content and deploy it to the web server
 $ ansible-playbook -i hosts.ini -l localhost,loncar_net -e remote_user_name=vagrant -e content_user=$USER deploy-content.yml
 ```
+
+## Contributing
+
+TBA
