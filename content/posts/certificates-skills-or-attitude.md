@@ -6,7 +6,7 @@ tags = ["Kubernetes", "Learning", "Learn-by-Doing", "Linux Foundation", "CKA", "
 categories = ["Skill", "Certificates", "Learn-by-Doing"]
 +++
 
-{{< figure src="https://s3.eu-central-1.amazonaws.com/loncar.net/ales-loncar-certified-kubernetes-administrator-cka-certificate.png" alt="CKA Certification" caption="CKA Certification" >}}
+{{< figure src="https://cdn.loncar.net/ales-loncar-certified-kubernetes-administrator-cka-certificate.png" alt="CKA Certification" caption="CKA Certification" >}}
 
 ## To cert, or not to cert, that is the question? 😉
 
@@ -33,11 +33,11 @@ I bought Cloud Engineer Starter Pack at [Linux Foundation](https://www.linuxfoun
 
 So suddenly beside taking care of our dog (Mike), helping homeschooling kids and preparing meals (a little preview see down) for all of us I had a bit of time to spare.
 
-{{< figure class="img-left" link="https://s3.eu-central-1.amazonaws.com/loncar.net/Mike.jpg" src="https://s3.eu-central-1.amazonaws.com/loncar.net/Mike.jpg" alt="Mike" >}} {{< figure class="img-right" link="https://s3.eu-central-1.amazonaws.com/loncar.net/Burek.jpg" src="https://s3.eu-central-1.amazonaws.com/loncar.net/Burek.jpg" alt="Burek" >}}
+{{< figure class="img-left" link="https://cdn.loncar.net/Mike.jpg" src="https://cdn.loncar.net/Mike.jpg" alt="Mike" >}} {{< figure class="img-right" link="https://cdn.loncar.net/Burek.jpg" src="https://cdn.loncar.net/Burek.jpg" alt="Burek" >}}
 
-{{< figure class="img-left" link="https://s3.eu-central-1.amazonaws.com/loncar.net/Chakalaka.jpg" src="https://s3.eu-central-1.amazonaws.com/loncar.net/Chakalaka.jpg" alt="Chakalaka" >}} {{< figure class="img-right" link="https://s3.eu-central-1.amazonaws.com/loncar.net/Sourdough+Bread.jpg" src="https://s3.eu-central-1.amazonaws.com/loncar.net/Sourdough+Bread.jpg" alt="Sourdough Bread" >}}
+{{< figure class="img-left" link="https://cdn.loncar.net/Chakalaka.jpg" src="https://cdn.loncar.net/Chakalaka.jpg" alt="Chakalaka" >}} {{< figure class="img-right" link="https://cdn.loncar.net/Sourdough+Bread.jpg" src="https://cdn.loncar.net/Sourdough+Bread.jpg" alt="Sourdough Bread" >}}
 
-{{< figure class="img-left" link="https://s3.eu-central-1.amazonaws.com/loncar.net/Chicken+legs+in+the+oven.jpg" src="https://s3.eu-central-1.amazonaws.com/loncar.net/Chicken+legs+in+the+oven.jpg" alt="Chicken legs in the oven" >}} {{< figure class="img-right" link="https://s3.eu-central-1.amazonaws.com/loncar.net/foccacia.jpg" src="https://s3.eu-central-1.amazonaws.com/loncar.net/foccacia.jpg" alt="Focaccia" >}}
+{{< figure class="img-left" link="https://cdn.loncar.net/Chicken+legs+in+the+oven.jpg" src="https://cdn.loncar.net/Chicken+legs+in+the+oven.jpg" alt="Chicken legs in the oven" >}} {{< figure class="img-right" link="https://cdn.loncar.net/foccacia.jpg" src="https://cdn.loncar.net/foccacia.jpg" alt="Focaccia" >}}
 
 ## How did I prepare/practice
 
@@ -50,7 +50,7 @@ You can find the examples I've been going through on [GitHub](https://github.com
 I didn't do anything related to the topic on the day of the exam. Just took care of that I've got plenty of sleep before night. Once the proctor gave a go for taking the exam, I had 3 hours to complete it. The exam consisted of 24 performance-based tasks. First I've set up `kubectl` autocomplete on jump host, didn't bother with aliases. They are useless in the exam.  I've been going through tasks one by one, staying calm and ensuring than I' am in the right context. I've tried to use imperative commands as much as possible and created the definition files on the fly to be able to edit them for later usage if needed. Don't bother memorising all the resource types. You can find everything in the Kubernetes documentation. This is the one extra tab you can have opened during the exam. Everything I couldn't get directly from my head I've found in the documentation. I was finished half an hour before, and then I've done a final check. I've found out that one of the services was not reachable and had to fix the issue. I must have missed something 😂
 **The results of the score: 93**
 
-{{< figure src="https://s3.eu-central-1.amazonaws.com/loncar.net/Exam+Preparation+Checklist.png" alt="Exam Preparation Checklist" caption="Exam Preparation Checklist" >}}
+{{< figure src="https://cdn.loncar.net/Exam+Preparation+Checklist.png" alt="Exam Preparation Checklist" caption="Exam Preparation Checklist" >}}
 
 ## My two cents (my 2¢)
 

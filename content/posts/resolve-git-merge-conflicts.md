@@ -19,7 +19,7 @@ Merge conflicts can be painful and are traditionally cause developers a lot of g
 There are also tools which also include a fourth display panel showing the version of that file in the merge base. Such a tool is [Helix Visual Merge Tool (P4Merge)](https://www.perforce.com/downloads/visual-merge-tool).
 
 
-{{< figure link="https://s3.eu-central-1.amazonaws.com/loncar.net/Perforce+P4Merge.png" src="https://s3.eu-central-1.amazonaws.com/loncar.net/Perforce+P4Merge.png" alt="P4Merge as a four-pane merge tool" caption="P4Merge as a four-pane merge tool" >}}
+{{< figure link="https://cdn.loncar.net/Perforce+P4Merge.png" src="https://cdn.loncar.net/Perforce+P4Merge.png" alt="P4Merge as a four-pane merge tool" caption="P4Merge as a four-pane merge tool" >}}
 
 P4Merge show you these panes:
 

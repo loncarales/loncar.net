@@ -7,7 +7,7 @@ categories = ["Development", "Product", "Learn-by-Doing"]
 series = ["Learn-by-Doing", "DevOps"]
 +++
 
-{{< figure src="https://s3.eu-central-1.amazonaws.com/loncar.net/continuous-improvement-is-better-than-delayed-perfection.jpg" alt="Continuous improvement is better than delayed perfection. - Mark Twain" caption="Continuous improvement is better than delayed perfection. - Mark Twain" >}}
+{{< figure src="https://cdn.loncar.net/continuous-improvement-is-better-than-delayed-perfection.jpg" alt="Continuous improvement is better than delayed perfection. - Mark Twain" caption="Continuous improvement is better than delayed perfection. - Mark Twain" >}}
 
 ## Fun Challange
 
@@ -46,13 +46,13 @@ The most challenging for me was to come up with some appropriate application. Th
 
 I've found a simple [**blog example**](https://github.com/mojolicious/mojo-pg/tree/master/examples/blog) written in [Perl](https://www.perl.org/), which uses [PostgreSQL](https://www.postgresql.org/) for storing persistent data.
 
-{{< figure link="https://s3.eu-central-1.amazonaws.com/loncar.net/mojo-pg-blog.png" src="https://s3.eu-central-1.amazonaws.com/loncar.net/mojo-pg-blog.png" alt="Using a Port Forwarding to access Mojo::Pg example blog application running in local Kubernetes cluster" caption="Using a Port Forwarding to access Mojo::Pg example blog application running in local Kubernetes cluster" >}}
+{{< figure link="https://cdn.loncar.net/mojo-pg-blog.png" src="https://cdn.loncar.net/mojo-pg-blog.png" alt="Using a Port Forwarding to access Mojo::Pg example blog application running in local Kubernetes cluster" caption="Using a Port Forwarding to access Mojo::Pg example blog application running in local Kubernetes cluster" >}}
 
 ### Mojo::Pg
 
 [Mojo::Pg](https://github.com/mojolicious/mojo-pg) is a tiny wrapper around [DBD::Pg](https://metacpan.org/pod/DBD::Pg) that makes PostgreSQL a lot of fun to use with the [Mojolicous](https://mojolicious.org/) real-time web framework. I've tackled the challenge by "Dockerising" this simple but non-trivial Perl application and adding all dependencies for running the app inside Kubernetes cluster.
 
-{{< figure link="https://s3.eu-central-1.amazonaws.com/loncar.net/mojo-pg-postgresql.png" src="https://s3.eu-central-1.amazonaws.com/loncar.net/mojo-pg-postgresql.png" alt="Using a Port Forwarding to access a PostgreSQL database on Kubernetes with DBeaver (database tool)" caption="Using a Port Forwarding to access a PostgreSQL database on Kubernetes with DBeaver (database tool)" >}}
+{{< figure link="https://cdn.loncar.net/mojo-pg-postgresql.png" src="https://cdn.loncar.net/mojo-pg-postgresql.png" alt="Using a Port Forwarding to access a PostgreSQL database on Kubernetes with DBeaver (database tool)" caption="Using a Port Forwarding to access a PostgreSQL database on Kubernetes with DBeaver (database tool)" >}}
 
 ### A little history of Perl
 

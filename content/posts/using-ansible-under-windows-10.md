@@ -6,7 +6,7 @@ tags = ["Ansible", "Windows 10", "WSL", "Python Virtualenv", "Ubuntu", "Homebrew
 categories = ["Development", "Work", "DevOps"]
 +++
 
-{{< figure src="https://s3.eu-central-1.amazonaws.com/loncar.net/Ansible-Windows10.jpg" alt="Ansible - How to Install on Windows 10" caption="Ansible - How to Install on Windows 10" >}}
+{{< figure src="https://cdn.loncar.net/Ansible-Windows10.jpg" alt="Ansible - How to Install on Windows 10" caption="Ansible - How to Install on Windows 10" >}}
 
 ## What is Ansible?
 
@@ -21,7 +21,7 @@ Recently I've got a task from one of our clients to create an immutable and reus
 * Windows 10 laptops have build version 1809, so only WSL 1 can be installed
 * Due to Company Policy Linux Distributions can not be installed from the Microsoft Store
 
-{{< figure class="img-left" link="https://s3.eu-central-1.amazonaws.com/loncar.net/Windows-Specifications.png" src="https://s3.eu-central-1.amazonaws.com/loncar.net/Windows-Specifications.png" alt="Windows 10 laptops have build version 1809, so only WSL 1 can be installed" >}} {{< figure class="img-right" link="https://s3.eu-central-1.amazonaws.com/loncar.net/Blocked-Company-Policy.png" src="https://s3.eu-central-1.amazonaws.com/loncar.net/Blocked-Company-Policy.png" alt="Due to Company Policy Linux Distributions can not be installed from the Microsoft Store" >}}
+{{< figure class="img-left" link="https://cdn.loncar.net/Windows-Specifications.png" src="https://cdn.loncar.net/Windows-Specifications.png" alt="Windows 10 laptops have build version 1809, so only WSL 1 can be installed" >}} {{< figure class="img-right" link="https://cdn.loncar.net/Blocked-Company-Policy.png" src="https://cdn.loncar.net/Blocked-Company-Policy.png" alt="Due to Company Policy Linux Distributions can not be installed from the Microsoft Store" >}}
 
 All requirements can be done without too much research. All the information can be found on [Microsoft documentation for end-users, developers, and IT professionals](https://docs.microsoft.com/en-us/).
 
@@ -29,7 +29,7 @@ Once we've enabled "[Windows Subsystem for Linux](https://docs.microsoft.com/en-
 
 ### Download, extract and install a Ubuntu 18.04
 
-{{< figure src="https://s3.eu-central-1.amazonaws.com/loncar.net/Ubuntu-18-04-WSL.png" alt="Ubuntu 18.04.3 LTS" caption="Ubuntu 18.04.3 LTS" >}}
+{{< figure src="https://cdn.loncar.net/Ubuntu-18-04-WSL.png" alt="Ubuntu 18.04.3 LTS" caption="Ubuntu 18.04.3 LTS" >}}
 
 Open PowerShell as Administrator and run
 
@@ -76,7 +76,7 @@ To completely delete a distribution, delete the folder where it was unpacked/ins
 
 ## Install Ansible
 
-{{< figure src="https://s3.eu-central-1.amazonaws.com/loncar.net/Ansible-2-8-0.png" alt="Ansible version 2.8.0 inside it's own virtual environment" caption="Ansible version 2.8.0 inside it's own virtual environment" >}}
+{{< figure src="https://cdn.loncar.net/Ansible-2-8-0.png" alt="Ansible version 2.8.0 inside it's own virtual environment" caption="Ansible version 2.8.0 inside it's own virtual environment" >}}
 
 We could install Ansible directly from the package repository, but the version is likely outdated. Our way of installing Ansible is inside a virtual environment so we can easily switch between different versions.
 The easiest way to install the latest packages supported by the vast community is to install the Homebrew package manager for Linux.

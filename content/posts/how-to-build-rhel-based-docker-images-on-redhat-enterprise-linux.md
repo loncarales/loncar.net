@@ -21,7 +21,7 @@ These tutorials have one thing in common. They are explaining how we can install
 
 There are many reasons not to do this. First off all [Docker CE](https://docs.docker.com/engine/install/) is not even supported for Red Hat Enterprise Linux.
 
-{{< figure src="https://s3.eu-central-1.amazonaws.com/loncar.net/Docker+Supported+platforms.png" alt="Docker CE Engine Supported Platforms" caption="Docker CE Engine Supported Platforms" >}}
+{{< figure src="https://cdn.loncar.net/Docker+Supported+platforms.png" alt="Docker CE Engine Supported Platforms" caption="Docker CE Engine Supported Platforms" >}}
 
 ## But we've managed to install Docker CE
 
@@ -31,7 +31,7 @@ Ok, now what?
 
 Well for average user installing Docker from RPM will be enough. If we really would like to have the latest and greatest, then we must go for [Docker Engine - Enterprise for Red Hat Enterprise](https://docs.docker.com/ee/docker-ee/rhel/).
 
-{{< figure src="https://s3.eu-central-1.amazonaws.com/loncar.net/Docker+Enterprise+-+RHEL.png" alt="Docker Enterprise (Red Hat Enterprise Linux)" caption="Docker Enterprise (Red Hat Enterprise Linux)" >}}
+{{< figure src="https://cdn.loncar.net/Docker+Enterprise+-+RHEL.png" alt="Docker Enterprise (Red Hat Enterprise Linux)" caption="Docker Enterprise (Red Hat Enterprise Linux)" >}}
 
 ## Installing Docker from RPM
 

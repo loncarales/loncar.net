@@ -7,7 +7,7 @@ categories = ["Development", "Product", "Learn-by-Doing"]
 series = ["Learn-by-Doing"]
 +++
 
-{{< figure src="https://s3.eu-central-1.amazonaws.com/loncar.net/oc-nginx-demo.png" alt="Deployment Config Pods Overview" caption="Deployment Config Pods Overview" >}}
+{{< figure src="https://cdn.loncar.net/oc-nginx-demo.png" alt="Deployment Config Pods Overview" caption="Deployment Config Pods Overview" >}}
 
 ## TL;DR
 
@@ -21,11 +21,11 @@ I've been working with OpenShift Container Platform for a while now. I've seen a
 
 I've stumbled upon information that version 4.1 can be installed on [AWS](https://aws.amazon.com/). I've decided to give it a try. I've managed to deploy a cluster with the help of [Red Hat's Online Partner Enablement Network](https://www.redhat.com/en/partners/open).
 
-{{< figure link="https://s3.eu-central-1.amazonaws.com/loncar.net/oc-machines-in-the-cluster.png" src="https://s3.eu-central-1.amazonaws.com/loncar.net/oc-machines-in-the-cluster.png" alt="All machines in the cluster" caption="All machines in the cluster" >}}
+{{< figure link="https://cdn.loncar.net/oc-machines-in-the-cluster.png" src="https://cdn.loncar.net/oc-machines-in-the-cluster.png" alt="All machines in the cluster" caption="All machines in the cluster" >}}
 
 I've opened the door, got a glimpse from the other side, which gave me goose bumps. After the cluster installation, there were over 180 pods created and **133** in state **Running**.
 
-{{< figure link="https://s3.eu-central-1.amazonaws.com/loncar.net/oc-133-pods-running.png" src="https://s3.eu-central-1.amazonaws.com/loncar.net/oc-133-pods-running.png" alt="After Cluster installation expect to see about 184 pods in total and about 133 running pods (for the 4.1.0 installer)" caption="After Cluster installation expect to see about 184 pods in total and about 133 running pods (for the 4.1.0 installer)" >}}
+{{< figure link="https://cdn.loncar.net/oc-133-pods-running.png" src="https://cdn.loncar.net/oc-133-pods-running.png" alt="After Cluster installation expect to see about 184 pods in total and about 133 running pods (for the 4.1.0 installer)" caption="After Cluster installation expect to see about 184 pods in total and about 133 running pods (for the 4.1.0 installer)" >}}
 
 Once you are aware of the complexity of the technology and all it's moving parts, you are starting to realise why the customers are willing to pay to be insulated from that complexity.
 
@@ -33,4 +33,4 @@ Significant changes to the underlying architecture and installation process are 
 
 That being said, I look forward to working with OpenShift Container Platform 4.1 in production. I believe that Red Hat and the community have done an excellent job with this release. OpenShift is one of the best PaaS on the market.
 
-{{< figure src="https://s3.eu-central-1.amazonaws.com/loncar.net/oc-static-nginx.png" alt="Nginx HTTP server and reverse proxy (nginx) S2I Sample Application" caption="Nginx HTTP server and reverse proxy (nginx) S2I Sample Application" >}}
+{{< figure src="https://cdn.loncar.net/oc-static-nginx.png" alt="Nginx HTTP server and reverse proxy (nginx) S2I Sample Application" caption="Nginx HTTP server and reverse proxy (nginx) S2I Sample Application" >}}

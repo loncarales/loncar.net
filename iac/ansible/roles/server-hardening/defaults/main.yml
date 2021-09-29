@@ -1,5 +1,0 @@
----
-
-common_ssh_port: 22
-
-logwatch_email: youremail@example.com

@@ -51,7 +51,7 @@ $ ls /usr/src/kernels*
 
 > Check the version of VirtualBox → 6.0.14
 
-{{< figure src="https://s3.eu-central-1.amazonaws.com/loncar.net/VirtualBox-version.png" alt="VirtualBox → 6.0.14" caption="VirtualBox → 6.0.14" >}}
+{{< figure src="https://cdn.loncar.net/VirtualBox-version.png" alt="VirtualBox → 6.0.14" caption="VirtualBox → 6.0.14" >}}
 
 > Download Guest Additions for VirtualBox for our version of VirtualBox and install it.
 

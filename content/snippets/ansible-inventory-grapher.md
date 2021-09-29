@@ -10,4 +10,4 @@ The tool can be found in [ansible-inventory-grapher](https://github.com/willtham
 
 <script src="https://embed.cacher.io/d7543f870532ae14aafe13960c2448f4280ffc14.js?a=937ca07d07d03180b988cf4d15697ab0&t=atom_one_dark"></script>
 
-{{< figure src="https://s3.eu-central-1.amazonaws.com/loncar.net/loncar_net.png" alt="Ansible Inventory Grapher - Vagrant host" caption="Ansible Inventory Grapher - Vagrant host" >}}
+{{< figure src="https://cdn.loncar.net/loncar_net.png" alt="Ansible Inventory Grapher - Vagrant host" caption="Ansible Inventory Grapher - Vagrant host" >}}

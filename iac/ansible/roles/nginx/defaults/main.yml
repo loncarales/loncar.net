@@ -1,3 +1,0 @@
----
-
-ssl_certs_directory: /etc/nginx/certs/mydomain.com

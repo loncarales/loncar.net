@@ -6,7 +6,7 @@ tags = ["Microsoft", "Windows 10", "WSL", "Linux", "VirtualBox", "Agile", "DevOp
 categories = ["Development", "DevOps"]
 +++
 
-{{< figure src="https://s3.eu-central-1.amazonaws.com/loncar.net/the_good_the_bad_and_the_ugly.png" alt="The Good, The Bad and The Ugly" caption="The Good, The Bad and The Ugly" >}}
+{{< figure src="https://cdn.loncar.net/the_good_the_bad_and_the_ugly.png" alt="The Good, The Bad and The Ugly" caption="The Good, The Bad and The Ugly" >}}
 
 ## The Bad and the Ugly
 
@@ -30,7 +30,7 @@ As an example, the [Visual Studio Code](https://code.visualstudio.com/updates/v1
 
 I am working with clients who are either Microsoft clients or Solution Partners. I am working daily with the tools like: [Skype for Business](https://www.skype.com/en/business/), [Office 365](https://www.office.com/), [OneDrive for Business](https://onedrive.live.com/about/de-de/business/), [Windows 10](https://www.microsoft.com/en-us/windows). It makes my daily work more accessible if I use the same operating system, and besides that, Windows 10 is one of the most flexible and robust development platforms ever given. The state of developing software on Windows 10 in 2019 is quite impressive.
 
-{{< figure link="https://unsplash.com/photos/LwXKs2XvJVY" src="https://s3.eu-central-1.amazonaws.com/loncar.net/tinh-khuong-1316024-unsplash.jpg" alt="Photo by Tinh Khuong on Unsplash" caption="Photo by Tinh Khuong on Unsplash" >}}
+{{< figure link="https://unsplash.com/photos/LwXKs2XvJVY" src="https://cdn.loncar.net/tinh-khuong-1316024-unsplash.jpg" alt="Photo by Tinh Khuong on Unsplash" caption="Photo by Tinh Khuong on Unsplash" >}}
 
 
 ## The current state of Developing on Windows
@@ -41,13 +41,13 @@ We can choose from various tools which help us to manage software on Windows. [C
 
 I use Scoop with the combination of Chocolatey where there is no bucket available in Scoop. Scoop isn't a package manager. Instead, it reads plain JSON manifests that describe how to install a program and its dependencies via command-line. It installs to `~/scoop/` by default. It comes very handily when we don't have admin rights, for example, when utilising User Desktop inside a virtual machine like [VDI](https://www.citrix.com/glossary/vdi.html).
 
-{{< figure link="https://s3.eu-central-1.amazonaws.com/loncar.net/scoop.png" src="https://s3.eu-central-1.amazonaws.com/loncar.net/scoop.png" alt="Scoop: Installed apps" caption="Scoop: Installed apps" >}}
+{{< figure link="https://cdn.loncar.net/scoop.png" src="https://cdn.loncar.net/scoop.png" alt="Scoop: Installed apps" caption="Scoop: Installed apps" >}}
 
 ### Running Linux Software
 
 As a Windows user, I would like to run Linux software without leaving the Windows environment. In the past, I had to use [Virtual Machines](https://en.wikipedia.org/wiki/Virtual_machine) or [Cygwin](https://www.cygwin.com/) but with the Windows 10 version 1607 and later we can install compatibility layer for running Linux binary executables natively using [Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/about). There is also software which won't run on Windows natively, so we need a Unix-like environment. One of such tools is [Ansible](https://www.ansible.com/), an open-source software provisioning, configuration management, and application deployment tool. Ansible will only run on Unix-like systems (Linux, Unix, BSD, Cygwin and WSL) but can configure both Unix-like systems as well as Microsoft Windows. If you're planning to use Ansible on Windows, I would recommend installing it using Windows Subsystem for Linux (WSL).
 
-{{< figure link="https://s3.eu-central-1.amazonaws.com/loncar.net/ansible-inside-wsl.png" src="https://s3.eu-central-1.amazonaws.com/loncar.net/ansible-inside-wsl.png" alt="Using Ansible through Windows 10's Subsystem for Linux" caption="Using Ansible through Windows 10's Subsystem for Linux" >}}
+{{< figure link="https://cdn.loncar.net/ansible-inside-wsl.png" src="https://cdn.loncar.net/ansible-inside-wsl.png" alt="Using Ansible through Windows 10's Subsystem for Linux" caption="Using Ansible through Windows 10's Subsystem for Linux" >}}
 
 ### The Future
 

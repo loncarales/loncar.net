@@ -10,4 +10,4 @@ Never give up on your dreams. If you give up on your dreams, you’re living a l
 
 Live life with purpose, and you will never be bored.
 
-{{< figure src="https://s3.eu-central-1.amazonaws.com/loncar.net/motorchef.jpg" alt="MotorChef" caption="MotorChef" >}}
+{{< figure src="https://cdn.loncar.net/motorchef.jpg" alt="MotorChef" caption="MotorChef" >}}

@@ -6,7 +6,7 @@ tags = ["Yashica", "Tessar", "Compact Camera", "Guča", "Trumpet Festival", "Ana
 categories = ["Hobby"]
 +++
 
-{{< figure src="https://s3.eu-central-1.amazonaws.com/loncar.net/Yashica-T5-1.jpg" alt="Yashica T5" caption="Yashica T5" >}}
+{{< figure src="https://cdn.loncar.net/Yashica-T5-1.jpg" alt="Yashica T5" caption="Yashica T5" >}}
 
 I've found Yashica T5 in one of the forgotten drawers at home, and it's still working!
 
@@ -17,10 +17,10 @@ I took below photos at Guča Trumpet Festival in 2005.
 
 ### Guča 2005
 
-{{< figure class="img-left" link="https://s3.eu-central-1.amazonaws.com/loncar.net/Yashica-T5-2.jpg" src="https://s3.eu-central-1.amazonaws.com/loncar.net/Yashica-T5-2.jpg" alt="Guča 2005" >}} {{< figure class="img-right" link="https://s3.eu-central-1.amazonaws.com/loncar.net/Yashica-T5-3.jpg" src="https://s3.eu-central-1.amazonaws.com/loncar.net/Yashica-T5-3.jpg" alt="Guča 2005" >}}
+{{< figure class="img-left" link="https://cdn.loncar.net/Yashica-T5-2.jpg" src="https://cdn.loncar.net/Yashica-T5-2.jpg" alt="Guča 2005" >}} {{< figure class="img-right" link="https://cdn.loncar.net/Yashica-T5-3.jpg" src="https://cdn.loncar.net/Yashica-T5-3.jpg" alt="Guča 2005" >}}
 
-{{< figure class="img-left" link="https://s3.eu-central-1.amazonaws.com/loncar.net/Yashica-T5-4.jpg" src="https://s3.eu-central-1.amazonaws.com/loncar.net/Yashica-T5-4.jpg" alt="Guča 2005" >}} {{< figure class="img-right" link="https://s3.eu-central-1.amazonaws.com/loncar.net/Yashica-T5-7.jpg" src="https://s3.eu-central-1.amazonaws.com/loncar.net/Yashica-T5-7.jpg" alt="Guča 2005" >}}
+{{< figure class="img-left" link="https://cdn.loncar.net/Yashica-T5-4.jpg" src="https://cdn.loncar.net/Yashica-T5-4.jpg" alt="Guča 2005" >}} {{< figure class="img-right" link="https://cdn.loncar.net/Yashica-T5-7.jpg" src="https://cdn.loncar.net/Yashica-T5-7.jpg" alt="Guča 2005" >}}
 
-{{< figure class="img-left" link="https://s3.eu-central-1.amazonaws.com/loncar.net/Yashica-T5-8.jpg" src="https://s3.eu-central-1.amazonaws.com/loncar.net/Yashica-T5-8.jpg" alt="Guča 2005" >}} {{< figure class="img-right" link="https://s3.eu-central-1.amazonaws.com/loncar.net/Yashica-T5-9.jpg" src="https://s3.eu-central-1.amazonaws.com/loncar.net/Yashica-T5-9.jpg" alt="Guča 2005" >}}
+{{< figure class="img-left" link="https://cdn.loncar.net/Yashica-T5-8.jpg" src="https://cdn.loncar.net/Yashica-T5-8.jpg" alt="Guča 2005" >}} {{< figure class="img-right" link="https://cdn.loncar.net/Yashica-T5-9.jpg" src="https://cdn.loncar.net/Yashica-T5-9.jpg" alt="Guča 2005" >}}
 
-{{< figure class="img-left" link="https://s3.eu-central-1.amazonaws.com/loncar.net/Yashica-T5-5.jpg" src="https://s3.eu-central-1.amazonaws.com/loncar.net/Yashica-T5-5.jpg" alt="Guča 2005" >}} {{< figure class="img-right" link="https://s3.eu-central-1.amazonaws.com/loncar.net/Yashica-T5-6.jpg" src="https://s3.eu-central-1.amazonaws.com/loncar.net/Yashica-T5-6.jpg" alt="Guča 2005" >}}
+{{< figure class="img-left" link="https://cdn.loncar.net/Yashica-T5-5.jpg" src="https://cdn.loncar.net/Yashica-T5-5.jpg" alt="Guča 2005" >}} {{< figure class="img-right" link="https://cdn.loncar.net/Yashica-T5-6.jpg" src="https://cdn.loncar.net/Yashica-T5-6.jpg" alt="Guča 2005" >}}

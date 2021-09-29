@@ -24,7 +24,7 @@ $ curl -Lv https://JENKINS_HOST/login 2>&1 | grep -i 'x-ssh-endpoint'
 
 Authentication relies on SSH-based public/private key authentication. To add an SSH public key for the appropriate user, navigate to `JENKINS_URL/user/USERNAME/configure` and paste an SSH public key into the relevant text area.
 
-{{< figure src="https://s3.eu-central-1.amazonaws.com/loncar.net/Jenkins-SSH-Public-Keys.png" alt="Jenkins - Add SSH Public Key" caption="Jenkins - Add SSH Public Key" >}}
+{{< figure src="https://cdn.loncar.net/Jenkins-SSH-Public-Keys.png" alt="Jenkins - Add SSH Public Key" caption="Jenkins - Add SSH Public Key" >}}
 
 Once we set up the SSH keys, we can talk with Jenkins over SSH. We can see all list of commands available in a give Jenkins environment with the  `help` command.
 
@@ -57,7 +57,7 @@ With the CLI client, we connect to the master via HTTP connection mode per defau
 
 > We can get the API toke from `JENKINS_URL/me/configure`.
 
-{{< figure src="https://s3.eu-central-1.amazonaws.com/loncar.net/Jenkins-API-Token.png" alt="Jenkins - Generate new API Token" caption="Jenkins - Generate new API Token" >}}
+{{< figure src="https://cdn.loncar.net/Jenkins-API-Token.png" alt="Jenkins - Generate new API Token" caption="Jenkins - Generate new API Token" >}}
 
 > Full list of commands available
 

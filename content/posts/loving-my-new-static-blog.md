@@ -15,11 +15,11 @@ This is not my first blog. I was self-employed back in Slovenia from 2009 to 201
 
 ###### Captured snapshot of www.celavi.org
 
-{{< figure link="https://web.archive.org/web/20130524070830/http://www.celavi.org/2009/07/06/how-to-add-plural-support-to-gettext-adapter-in-zend-framework" src="https://s3.eu-central-1.amazonaws.com/loncar.net/celavi-blog.png" alt="Captured snapshot of my old English blog by Wayback Machine." caption="Captured snapshot of my old English blog by Wayback Machine." >}}
+{{< figure link="https://web.archive.org/web/20130524070830/http://www.celavi.org/2009/07/06/how-to-add-plural-support-to-gettext-adapter-in-zend-framework" src="https://cdn.loncar.net/celavi-blog.png" alt="Captured snapshot of my old English blog by Wayback Machine." caption="Captured snapshot of my old English blog by Wayback Machine." >}}
 
 ###### Captured snapshot of www.internet-solutions.si
 
-{{< figure link="https://web.archive.org/web/20130630085541/http://www.internet-solutions.si/2010/09/03/prestashop-brezplacen-facebook-like-box-block-modul" src="https://s3.eu-central-1.amazonaws.com/loncar.net/internet-solutions.png" alt="Captured snapshot of my old Slovenian blog by Wayback Machine." caption="Captured snapshot of my old Slovenian blog by Wayback Machine." >}}
+{{< figure link="https://web.archive.org/web/20130630085541/http://www.internet-solutions.si/2010/09/03/prestashop-brezplacen-facebook-like-box-block-modul" src="https://cdn.loncar.net/internet-solutions.png" alt="Captured snapshot of my old Slovenian blog by Wayback Machine." caption="Captured snapshot of my old Slovenian blog by Wayback Machine." >}}
 
 ## Bringing back my motivation for blogging
 
@@ -31,7 +31,7 @@ For some, this comes naturally, for me ... well, it sucks. Through my posts, I a
 
 There are plenty of exciting things I'm currently doing as a Software Engineer / DevOps Advocate, and I hope to share some of them on this blog.
 
-{{< figure link="https://unsplash.com/photos/oqStl2L5oxI" src="https://s3.eu-central-1.amazonaws.com/loncar.net/clark-tibbs-367075-unsplash.jpg" alt="Photo by Clark Tibbs on Unsplash" caption="Photo by Clark Tibbs on Unsplash" >}}
+{{< figure link="https://unsplash.com/photos/oqStl2L5oxI" src="https://cdn.loncar.net/clark-tibbs-367075-unsplash.jpg" alt="Photo by Clark Tibbs on Unsplash" caption="Photo by Clark Tibbs on Unsplash" >}}
 
 ## You build it, you run it
 
@@ -156,7 +156,7 @@ cd iac/ansible
 $ ansible-playbook -u deploy -i hosts.ini --private-key ../pki/id_rsa_deploy deploy-content.yml
 ```
 
-{{< figure link="https://s3.eu-central-1.amazonaws.com/loncar.net/time-ansible-deploy.png" src="https://s3.eu-central-1.amazonaws.com/loncar.net/time-ansible-deploy.png" alt="The new content is generated, deployed and ready to serve in less than 15 seconds." caption="The new content is generated, deployed and ready to serve in less than 15 seconds." >}}
+{{< figure link="https://cdn.loncar.net/time-ansible-deploy.png" src="https://cdn.loncar.net/time-ansible-deploy.png" alt="The new content is generated, deployed and ready to serve in less than 15 seconds." caption="The new content is generated, deployed and ready to serve in less than 15 seconds." >}}
 
 ## Analysis
 

@@ -6,7 +6,7 @@ slug = "git-for-windows-filename-too-long"
 
 <script src="https://embed.cacher.io/81073fd10e64a915fba246945e2a4cf32c03ad44.js?a=b8c3f7ce58a948b7d98a7a69ed11dbb5&t=atom_one_dark"></script>
 
-{{< figure src="https://s3.eu-central-1.amazonaws.com/loncar.net/filename-tool-long.png" alt="After applying core.longpats option the missing files are checked out" caption="After applying core.longpats option the missing files are checked out" >}}
+{{< figure src="https://cdn.loncar.net/filename-tool-long.png" alt="After applying core.longpats option the missing files are checked out" caption="After applying core.longpats option the missing files are checked out" >}}
 
 ## Note
 
