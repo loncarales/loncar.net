@@ -14,12 +14,11 @@
   when: acme_check.rc != 0 or acme_check.failed | default(false)
 
 - name: DNS API integration and generating a certificates via CloudFlare Domain API  
-  shell: "~/.acme.sh/acme.sh --issue --dns dns_cf -d {{ domain_name }} -d www.{{ domain_name }}"
+  shell: "~/.acme.sh/acme.sh --issue --dns dns_cf --ocsp-must-staple --keylength 4096 -d {{ domain_name }} -d '*.{{ domain_name }}' --force"
   failed_when: false
   register: certificates_check
   environment:
-    CF_Email: "{{ cf_email }}"
-    CF_Key: "{{ cf_key }}"
+    CF_TOKEN: "{{ cf_token }}"
 
 - name: Certificates not issued
   debug:
@@ -32,7 +31,7 @@
     path: "{{ ssl_certs_directory }}"
 
 - name:  Installing the certificate to target folder
-  shell: '~/.acme.sh/acme.sh --install-cert -d {{ domain_name }} -d www.{{ domain_name }} \
+  shell: '~/.acme.sh/acme.sh --install-cert -d {{ domain_name }} -d "*.{{ domain_name }}" \
     --fullchain-file "{{ ssl_certs_directory }}/fullchain.pem" \
     --key-file "{{ ssl_certs_directory }}/privkey.pem"  \
     --reloadcmd "systemctl reload nginx.service"'
