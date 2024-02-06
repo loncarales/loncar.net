@@ -7,11 +7,7 @@ languagecode = "en"
 defaultcontentlanguage = "en"
 
 paginate = 20
-canonifyurls = true
-
-pygmentsstyle = "b2"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
+enableEmoji = true
 
 googleAnalytics = "UA-111608998-1"
 disqusShortname = "loncar"
@@ -39,15 +35,12 @@ disqusShortname = "loncar"
     # "auto" (use preference set by browser)
     # "dark" (dark background, light foreground)
     # "light" (light background, dark foreground) (default)
-    colorScheme = "auto"
+    colorScheme = "light"
     # Hide the toggle button, along with the associated vertical divider
     hideColorSchemeToggle = false
 
     # Series see also post count
     maxSeeAlsoItems = 5
-
-    # Custom CSS
-    custom_css = ["css/custom.css"]
 
 [taxonomies]
   category = "categories"
@@ -56,12 +49,12 @@ disqusShortname = "loncar"
 
 [[params.social]]
     name = "LinkedIn"
-    icon = "fab fa-linkedin"
+    icon = "fa-brands fa-linkedin fa-2x"
     weight = 1
     url = "https://www.linkedin.com/in/loncarales/"
 [[params.social]]
     name = "Github"
-    icon = "fab fa-github"
+    icon = "fa-brands fa-github fa-2x"
     weight = 2
     url = "https://github.com/loncarales"
 
