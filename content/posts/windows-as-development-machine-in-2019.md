@@ -3,7 +3,7 @@ date = "2019-05-15"
 title = "Windows as Development Machine in 2019"
 slug = "windows-as-development-machine-in-2019"
 tags = ["Microsoft", "Windows 10", "WSL", "Linux", "VirtualBox", "Agile", "DevOps", "Scoop", "Chocolatey", "Ansible"]
-categories = ["Development", "DevOps"]
+categories = ["Professional Development", "DevOps"]
 +++
 
 {{< figure src="https://cdn.loncar.net/the_good_the_bad_and_the_ugly.png" alt="The Good, The Bad and The Ugly" caption="The Good, The Bad and The Ugly" >}}
@@ -13,8 +13,8 @@ categories = ["Development", "DevOps"]
 Windows in the past were `marked` as the bad and the ugly from the development community. One particular reason stood out from the crowd. There was no reliable [package manager](https://en.wikipedia.org/wiki/Package_manager) available like there are ones on Linux. We developers are lazy. We would rather spend a day developing some automation task rather than spend a day of manual work required.
 It was also harder, and it took longer to install programming tools and languages on Windows, when compared to Linux simple running `apt|yum|pacman` install command. So the Linux was the most reasonable option for many of us.
 
-I am a big Linux fan. I've been using Linux for many years. I actually can't recall when it was the first time I've installed it. What I can tell for sure It was a [Slackware](http://www.slackware.com/) distribution which fit on a few floppy disks.  Over the years I've tried all sorts of setups - everything ranging from dual-booting Linux to using a [VirtualBox](https://www.virtualbox.org/) based Linux VM. The main reason for me sticking with Linux as a development machine was an inconsistent behaviour of PHP 4.X running on Windows systems back in the days. Developers who would do PHP development at that time on Windows would later fight with the inevitable battle to adjust the code base which will run seamlessly on Linux servers. 
-Since years I've been avoiding Windows as much as I could for professional use, but lately, I am more and more fond of it. 
+I am a big Linux fan. I've been using Linux for many years. I actually can't recall when it was the first time I've installed it. What I can tell for sure It was a [Slackware](http://www.slackware.com/) distribution which fit on a few floppy disks.  Over the years I've tried all sorts of setups - everything ranging from dual-booting Linux to using a [VirtualBox](https://www.virtualbox.org/) based Linux VM. The main reason for me sticking with Linux as a development machine was an inconsistent behaviour of PHP 4.X running on Windows systems back in the days. Developers who would do PHP development at that time on Windows would later fight with the inevitable battle to adjust the code base which will run seamlessly on Linux servers.
+Since years I've been avoiding Windows as much as I could for professional use, but lately, I am more and more fond of it.
 
 ## The Good
 
@@ -51,14 +51,14 @@ As a Windows user, I would like to run Linux software without leaving the Window
 
 ### The Future
 
-WSL (Windows Subsystem for Linux) is a Linux kernel compatibility layer for Windows. It allows many Linux programs (mainly the command line ones) to run inside Windows. Microsoft has recently announced that they will bring the newest architecture for the Windows Subsystem for Linux: [WSL 2](https://devblogs.microsoft.com/commandline/announcing-wsl-2/). 
+WSL (Windows Subsystem for Linux) is a Linux kernel compatibility layer for Windows. It allows many Linux programs (mainly the command line ones) to run inside Windows. Microsoft has recently announced that they will bring the newest architecture for the Windows Subsystem for Linux: [WSL 2](https://devblogs.microsoft.com/commandline/announcing-wsl-2/).
 
-Changes in this new architecture will allow for: 
+Changes in this new architecture will allow for:
 
 * dramatic file system performance increases.
-* full system call compatibility, meaning we can run more Linux apps in WSL 2 such as [Docker](https://www.docker.com/). 
-  
-In WSL 2, the **Linux kernel compatibility layer has been replaced by the real Linux kernel**. So now if you would use WSL, you'll be using the actual Linux kernel 4.9. 
+* full system call compatibility, meaning we can run more Linux apps in WSL 2 such as [Docker](https://www.docker.com/).
+
+In WSL 2, the **Linux kernel compatibility layer has been replaced by the real Linux kernel**. So now if you would use WSL, you'll be using the actual Linux kernel 4.9.
 
 
 {{< figure src="https://devblogs.microsoft.com/commandline/wp-content/uploads/sites/33/2019/05/runwsl.gif" alt="Demo of WSL 2 in action" caption="Demo of WSL 2 in action" >}}

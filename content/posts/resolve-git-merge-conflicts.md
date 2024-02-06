@@ -3,7 +3,7 @@ date = "2019-05-12"
 title = "Resolve Git merge conflicts the unpainful way"
 slug = "resolve-git-merge-conflicts"
 tags = ["Git", "P4Merge"]
-categories = ["Development"]
+categories = ["Professional Development"]
 +++
 
 ## What is a Git Merge Conflict?
@@ -77,7 +77,7 @@ $ git reset
 
 <script src="https://embed.cacher.io/82523f825d3bf911fdf945c0032d49f57a08a113.js?a=a3c18eac0c35d4e521489c80f92a4c71&t=atom_one_dark"></script>
 
-If you would like to setup P4Merge as your favourite git merging tool, take a look at the following snippet: 
+If you would like to setup P4Merge as your favourite git merging tool, take a look at the following snippet:
 
 [Git for Windows: Set up P4Merge as default mergetool]({{< ref "p4-merge-as-default-mergetool.md" >}})
 

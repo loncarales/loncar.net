@@ -1,9 +1,9 @@
-+++ 
++++
 date = 2019-09-30T22:34:47+02:00
 title = "Using Ansible under Windows 10"
-slug = "using-ansible-under-windows-10" 
+slug = "using-ansible-under-windows-10"
 tags = ["Ansible", "Windows 10", "WSL", "Python Virtualenv", "Ubuntu", "Homebrew"]
-categories = ["Development", "Work", "DevOps"]
+categories = ["Professional Development", "Work", "DevOps"]
 +++
 
 {{< figure src="https://cdn.loncar.net/Ansible-Windows10.jpg" alt="Ansible - How to Install on Windows 10" caption="Ansible - How to Install on Windows 10" >}}
@@ -11,7 +11,7 @@ categories = ["Development", "Work", "DevOps"]
 ## What is Ansible?
 
 [Ansible](https://docs.ansible.com/) is open-source software for provisioning, configuration management, and application deployment.
-I've already explained to you that [I love it]({{< ref "loving-my-new-static-blog.md" >}}). It's agent-less, it's easy to write and read, it's ensuring idempotency, it's my number one tool when building automated tasks. It has only one limitation, and it will only run on Unix-line systems (Linux, Unix, BSD). 
+I've already explained to you that [I love it]({{< ref "loving-my-new-static-blog.md" >}}). It's agent-less, it's easy to write and read, it's ensuring idempotency, it's my number one tool when building automated tasks. It has only one limitation, and it will only run on Unix-line systems (Linux, Unix, BSD).
 The running environment can be a "control" virtual machine running on your laptop or somewhere in the cloud. However, with the Windows 10 version 1607 and later we can install compatibility layer for running Linux binary executables natively using Windows Subsystem for Linux (WSL)
 
 ## Using your favourite GNU/Linux distributions on Windows (enabling WSL)

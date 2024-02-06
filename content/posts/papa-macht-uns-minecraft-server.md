@@ -3,7 +3,7 @@ date = "2018-01-29"
 title = "Papa, kannst du uns einen Minecraft-Server machen?"
 slug = "papa-macht-uns-minecraft-server"
 tags = ["Ansible", "Minecraft", "Debian", "Linux Server", "Automation", "CI/CD", "DevOps"]
-categories = ["Development"]
+categories = ["Professional Development"]
 +++
 
 Sure, no problem, just for you two to play and explore and for me to hack the stuff :) But wait, these days almost anyone can follow the steps online and do this. Let's make it my way :)

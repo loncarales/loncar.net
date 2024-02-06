@@ -1,9 +1,9 @@
-+++ 
++++
 date = 2020-05-17T17:25:00+02:00
 title = "The quickest way to export/import job in Jenkins"
-slug = "the-quickest-way-to-export-import-job-in-jenkins" 
+slug = "the-quickest-way-to-export-import-job-in-jenkins"
 tags = ["Jenkins", "Jenkins CLI"]
-categories = ["Development", "Work", "DevOps"]
+categories = ["Professional Development", "Work", "DevOps"]
 +++
 
 For example, we have a scenario where we need to troubleshoot the current job, but we would like to do this on our local Jenkins instance running. Jenkins has a built-in command-line interface that allows users and administrators to access Jenkins from a script or shell environment. This can be convenient for scripting of routine tasks, bulk updates, troubleshooting, and more. With the Jenkins CLI, we can easily export job definition as XML and then later import that XML file to another Jenkins instance.
@@ -53,7 +53,7 @@ When the SSH service is disabled, for example, the default transport for the CLI
 The CLI client can be downloaded directly from a Jenkins master at the URL /jnlpJars/jenkins-cli.jar, in effect `JENKINS_URL/jnlpJars/jenkins-cli.jar`.
 While a CLI .jar can be used against different versions of Jenkins, should any compatibility issues arise during use, please re-download the latest .jar file from the Jenkins master.
 
-With the CLI client, we connect to the master via HTTP connection mode per default. Authentication is preferably done with an `-auth` option, which takes a `username:apitoken` argument. 
+With the CLI client, we connect to the master via HTTP connection mode per default. Authentication is preferably done with an `-auth` option, which takes a `username:apitoken` argument.
 
 > We can get the API toke from `JENKINS_URL/me/configure`.
 
@@ -99,7 +99,7 @@ JENKINS_PORT=443
 JENKINS_URL=https://${JENKINS_HOST}:${JENKINS_PORT}
 KEYSTOREFILE=myKeystore
 KEYSTOREPASS=changeme
-  
+
 # get the SSL certificate
 openssl s_client -connect ${JENKINS_HOST}:${JENKINS_PORT} </dev/null | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > ${JENKINS_HOST}.cer
 # create a keystore and import certificate

@@ -1,9 +1,9 @@
-+++ 
++++
 date = 2020-05-16T19:10:07+02:00
 title = "How to create a Vagrant Red Hat Enterprise Linux box"
 slug = "how-to-create-a-vagrant-red-hat-enterprise-linux-box"
 tags = ["RHEL", "Red Hat Enterprise Linux", "VirtualBox", "Vagrant"]
-categories = ["Development", "Work", "DevOps"]
+categories = ["Professional Development", "Work", "DevOps"]
 +++
 
 This guide will show you how to create a Vagrant Box based on RHEL 7.6, which I've used to simulate the production environment so I could quickly test Ansible playbooks while developing them.
@@ -44,7 +44,7 @@ $ sudo yum install openssh wget
 # Needed for Virtualbox Guest Additions
 $ sudo yum install gcc perl bzip2
 $ sudo yum install "kernel-devel-uname-r == $(uname -r)"
- 
+
 # Verify the headers are now installed
 $ ls /usr/src/kernels*
 ```
@@ -58,12 +58,12 @@ $ ls /usr/src/kernels*
 ```bash
 # Download
 $ wget http://download.virtualbox.org/virtualbox/6.0.14/VBoxGuestAdditions_6.0.14.iso
- 
+
 # Install
 $ sudo mkdir /media/VBoxGuestAdditions
 $ sudo mount -o loop,ro VBoxGuestAdditions_6.0.14.iso /media/VBoxGuestAdditions/
 $ sudo sh /media/VBoxGuestAdditions/VBoxLinuxAdditions.run
- 
+
 # Cleanup
 $ rm VBoxGuestAdditions_6.0.14.iso
 $ sudo umount /media/VBoxGuestAdditions
@@ -84,7 +84,7 @@ $ chmod 0600 authorized_keys
 
 ```bash
 # Type `sudo visudo` and change the following line
-%wheel ALL=(ALL) ALL 
+%wheel ALL=(ALL) ALL
 # to
 %wheel ALL=(ALL) NOPASSWD: ALL
 ```

@@ -1,9 +1,9 @@
-+++ 
++++
 date = 2020-07-07T13:19:39+02:00
 title = "Ansible is now default test verifier in Molecule"
-slug = "ansible-is-now-default-test-verifier-in-molecule" 
+slug = "ansible-is-now-default-test-verifier-in-molecule"
 tags = ["Ansible", "Molecule", "Python", "pip", "Testing", "Automation", "DevOps", "Kubernetes"]
-categories = ["Development", "DevOps"]
+categories = ["Professional Development", "DevOps"]
 +++
 
 ## Stumbled upon

@@ -1,9 +1,9 @@
 +++
 date = 2020-08-13T16:25:08+02:00
 title = "Certificates, Skills or Attitude"
-slug = "certificates-skills-or-attitude" 
+slug = "certificates-skills-or-attitude"
 tags = ["Kubernetes", "Learning", "Learn-by-Doing", "Linux Foundation", "CKA", "OpenShift"]
-categories = ["Skill", "Certificates", "Learn-by-Doing"]
+categories = ["Professional Development", "Skill", "Certificates", "Learn-by-Doing"]
 +++
 
 {{< figure src="https://cdn.loncar.net/ales-loncar-certified-kubernetes-administrator-cka-certificate.png" alt="CKA Certification" caption="CKA Certification" >}}

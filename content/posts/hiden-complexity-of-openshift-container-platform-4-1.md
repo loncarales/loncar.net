@@ -1,9 +1,9 @@
-+++ 
++++
 date = 2019-08-09T22:34:47+02:00
 title = "Hiden complexity of OpenShift Container Platform 4.1 scrutinised from the side of the 'Application Developer'"
-slug = "hiden-complexity-of-openshift-container-platform-4-1" 
+slug = "hiden-complexity-of-openshift-container-platform-4-1"
 tags = ["DIY", "OpenShift", "RedHat", "AWS", "Kubernetes", "Operators", "PaaS", "RedHatOPEN"]
-categories = ["Development", "Product", "Learn-by-Doing"]
+categories = ["Professional Development", "Product", "Learn-by-Doing"]
 series = ["Learn-by-Doing"]
 +++
 

@@ -1,9 +1,9 @@
 +++
 date = 2019-05-29T22:39:34+02:00
 title = "Loving my new static Blog"
-slug = "loving-my-new-static-blog" 
+slug = "loving-my-new-static-blog"
 tags = ["Hugo", "GitHub", "Scaleway", "Packer", "Debian", "Go", "Terraform", "Ansible", "Nginx", "Certbot", "Let's Encrypt", "CloudFlare"]
-categories = ["Development", "Product", "Learn-by-Doing"]
+categories = ["Professional Development", "Product", "Learn-by-Doing"]
 series = ["Learn-by-Doing"]
 +++
 
@@ -25,7 +25,7 @@ This is not my first blog. I was self-employed back in Slovenia from 2009 to 201
 
 Everyone has its reasons and motivations for writing a blog. This is my blog, where I'll write for myself, me doing something for me. I often find myself searching for [code snippets](https://gist.github.com/loncarales) I used in the past and then wasting my time and energy to find them again. Putting them someplace safe ([Snippets]({{< ref "/snippets" >}})) where I could access them anytime makes perfect sense. I don't expect that vast population will read this. It's for specific people, including me, who will find useful bits and pieces later when needed. Out there are thousands of tutorial posts and how to articles, and I'll try to distance myself for writing similar content.
 
-Another big motivation for promoting myself is the reason I've decided to move from a permanent position to work as a freelancer. I am currently in a transition period, which will probably take a couple of months. I've realized that I am now my own business, a brand, a product and a service. In order to sell myself, I need to promote myself 😉 
+Another big motivation for promoting myself is the reason I've decided to move from a permanent position to work as a freelancer. I am currently in a transition period, which will probably take a couple of months. I've realized that I am now my own business, a brand, a product and a service. In order to sell myself, I need to promote myself 😉
 
 For some, this comes naturally, for me ... well, it sucks. Through my posts, I am going to indicate that I've come to the solutions/ideas from the ground up, and I can do the same for my clients. They will know me, learn what I am passionate about, what I can do for them, and how it will benefit them, and why they should choose me.
 
@@ -66,7 +66,7 @@ Here are the tools I've used for this blog:
 
 ### [Packer](https://www.packer.io/)
 
-> Packer is perfect for creating immutable and identical machine images for multiple platforms from a single source configuration file. 
+> Packer is perfect for creating immutable and identical machine images for multiple platforms from a single source configuration file.
 
 * Using it for building virtual-machine images for later deployment on Scaleway
 * My base image is [Debian](https://www.debian.org/) Stretch, and on top of it I've:
@@ -99,8 +99,8 @@ Here are the tools I've used for this blog:
 
 > Automatically enable HTTPS on your website with EFF's Certbot, deploying Let's Encrypt certificates.
 
-* Using it to obtain a wildcard certificate from [Let's Encrypt](https://letsencrypt.org/). 
-* For obtaining the certificate on a machine other than a target web server, we can use one of Certbot's DNS plugins. 
+* Using it to obtain a wildcard certificate from [Let's Encrypt](https://letsencrypt.org/).
+* For obtaining the certificate on a machine other than a target web server, we can use one of Certbot's DNS plugins.
 * [CloudFlare](https://www.cloudflare.com/) manages my domain DNS records. Cloudflare DNS plugin for Certbot automates the process of completing a dns-01 challenge(DNS01) by creating and subsequently removing, TXT records using the Cloudflare API.
 
 #### You can find the complete source code of my [blog](https://github.com/loncarales/loncar.net) on GitHub.

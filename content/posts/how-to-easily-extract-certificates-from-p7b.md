@@ -3,7 +3,7 @@ date = "2019-03-10"
 title = "How to easily extract PKCS7 DER-encoded certificates"
 slug = "how-to-easily-extract-certificates-from-p7b"
 tags = ["CI/CD", "DevOps", "OpenShift"]
-categories = ["Development", "DevOps"]
+categories = ["Professional Development", "DevOps"]
 +++
 
 Recently I've got a task to prepare templates for deploying a couple of applications on Red Hat [OpenShift](https://www.openshift.com/) cluster.  I would not go into details about OpenShift resources, but anyone familiar with [Kubernetes (K8s)](https://kubernetes.io/) knows that services are by default visible and exposed only inside the Openshift (K8s) cluster, not outside it. To expose the service to outside, we create a new entity called route associated with a service. Routes are resources specific to OpenShift and not found in K8s. Think of route as a mapping between your service and a domain name. The route default format is: `https://app-name.project-name.cluster-domain`

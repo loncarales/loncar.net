@@ -1,9 +1,9 @@
-+++ 
++++
 date = 2019-06-13T22:34:47+02:00
 title = "The Challenge: Create a minimalistic environment on Kubernetes to run a small Web application"
-slug = "the-challenge-minimalistic-environment-on-kubernetes" 
+slug = "the-challenge-minimalistic-environment-on-kubernetes"
 tags = ["DIY", "Kubernetes", "Docker", "Helm", "GitLab CI/CD", "Jenkins", "Perl"]
-categories = ["Development", "Product", "Learn-by-Doing"]
+categories = ["Professional Development", "Product", "Learn-by-Doing"]
 series = ["Learn-by-Doing", "DevOps"]
 +++
 
@@ -42,7 +42,7 @@ Use at least these tools from DevOps toolchain to provision your Web application
 
 ### The Hurdle
 
-The most challenging for me was to come up with some appropriate application. There are numerous tutorials out there how to run [PHP](https://www.php.net/) ([Wordpress](https://wordpress.com/)), [Python](https://www.python.org/) ([Flask](http://flask.pocoo.org/)) or [Ruby](https://www.ruby-lang.org/en/) ([Spina](https://www.spinacms.com/))  application inside the Kubernetes cluster. I wanted to do something more uniquely. What is the better place to look for an example application than in a library where are hosted millions of repositories? Of course, I am talking about [GitHub](https://github.com/). I had to dig up a project which is not yet containerised.  Easier said than done. All popular and newest projects already have instructions on how to containerise them (running in Docker). I had to extend my search a little. 
+The most challenging for me was to come up with some appropriate application. There are numerous tutorials out there how to run [PHP](https://www.php.net/) ([Wordpress](https://wordpress.com/)), [Python](https://www.python.org/) ([Flask](http://flask.pocoo.org/)) or [Ruby](https://www.ruby-lang.org/en/) ([Spina](https://www.spinacms.com/))  application inside the Kubernetes cluster. I wanted to do something more uniquely. What is the better place to look for an example application than in a library where are hosted millions of repositories? Of course, I am talking about [GitHub](https://github.com/). I had to dig up a project which is not yet containerised.  Easier said than done. All popular and newest projects already have instructions on how to containerise them (running in Docker). I had to extend my search a little.
 
 I've found a simple [**blog example**](https://github.com/mojolicious/mojo-pg/tree/master/examples/blog) written in [Perl](https://www.perl.org/), which uses [PostgreSQL](https://www.postgresql.org/) for storing persistent data.
 
@@ -57,7 +57,7 @@ I've found a simple [**blog example**](https://github.com/mojolicious/mojo-pg/tr
 ### A little history of Perl
 
 Perl gained widespread popularity in the late 1990s as a [CGI](https://en.wikipedia.org/wiki/Common_Gateway_Interface) scripting language. It also came very handily in cases where unique [regular expression](https://en.wikipedia.org/wiki/Regular_expression) and string [parsing](https://en.wikipedia.org/wiki/Parsing) abilities were needed. Later it lost the battle against PHP. It was more comfortable and convenient to copy the entire application to web space as every hosting provider had PHP already set up for you. Perl was not embedded in the web server so it couldn't compete.
-Perl evolved into much more flexible and rich language. In my opinion, this flexibility referred to as [TMTOWTDI](https://en.wikipedia.org/wiki/There%27s_more_than_one_way_to_do_it) is the main reason most programmers find it annoying to learn. Perl is one of the most hated programming languages according to [Stack Overflow](https://stackoverflow.com/), anyway.  But still, Perl work in a lot of projects. 
+Perl evolved into much more flexible and rich language. In my opinion, this flexibility referred to as [TMTOWTDI](https://en.wikipedia.org/wiki/There%27s_more_than_one_way_to_do_it) is the main reason most programmers find it annoying to learn. Perl is one of the most hated programming languages according to [Stack Overflow](https://stackoverflow.com/), anyway.  But still, Perl work in a lot of projects.
 
 As long Perl will come installed by [default](https://www.archlinux.org/groups/x86_64/base/) by most of Linux distributions, and it will be used in the process of building the [Linux Kernel](https://www.kernel.org/doc/html/v4.10/process/changes.html) it will stay in our lives. 😉
 
@@ -77,7 +77,7 @@ Each and every one of us is unique. Each of us also has it's own learning style.
 
 ### Excerpt
 
-* Dockerfile 
+* Dockerfile
   * Try to follow [Dockerfile Best Practices](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/). For me, the most important rule is to never run process inside a container as a privileged user if a service can run without root privileges! In our application, this is the USER  `app`. RedHat OpenShift [S2I](https://docs.openshift.com/container-platform/3.9/creating_images/s2i.html) builder images are using USER `1001`
 * docker-compose.yml
   * It is just used for testing the multi-container Docker applications locally.

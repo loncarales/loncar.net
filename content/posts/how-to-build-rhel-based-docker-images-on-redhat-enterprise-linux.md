@@ -1,9 +1,10 @@
-+++ 
++++
 date = 2020-05-25T14:20:07+02:00
 title = "How to build RHEL based docker images on Red Hat Enterprise Linux"
-slug = "how-to-build-rhel-based-docker-images-on-redhat-enterprise-linux" 
+slug = "how-to-build-rhel-based-docker-images-on-redhat-enterprise-linux"
 tags = ["RHEL", "Red Hat Enterprise Linux", "Docker", "Red Hat Subscription Management"]
-categories = ["Development", "Work", "DevOps"]
+categories = ["Professional Development", "Work", "DevOps", "Learn-by-Doing"]
+series = ["Learn-by-Doing"]
 +++
 
 Let's see how [Red Hat Enterprise Linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) and [Docker](https://www.docker.com/) are playing well together.

@@ -1,9 +1,9 @@
-+++ 
++++
 date = "2018-01-03"
 title = "Yearly Recap 2017: Go (golang), Books, Courses, Podcasts and Goals"
 slug = "yearly-recap-2017"
 tags = ["Go", "Golang", "Ansible", "Docker", "Kubernetes", "Openshift", "CI/CD", "DevOps"]
-categories = ["Development"]
+categories = ["Professional Development"]
 +++
 
 I am mostly posting pictures of food on Social Media, but I am not a chef. In my daytime, I am brewing code. Although I am in my early 40's, I still love to grasp for new knowledge and technology. I've added a new programming language to the stack I've been using so far: Java, PHP, Javascript, Perl, Python, C#, C/C++, Pascal, Oberon ...
