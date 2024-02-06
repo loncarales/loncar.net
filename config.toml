@@ -20,13 +20,13 @@ disqusShortname = "loncar"
     author = "Aleš Lončar"
     description = "Aleš Lončar's personal website"
     keywords = "blog,developer,devops,personal,docker,kubernetes,openshift,helm,ansible,terraform,jenkins,gitlab,packer,ci/cd"
-    info = "Software Engineering / DevOps / Cloud Computing Specialist"
-    avatarurl = "https://www.gravatar.com/avatar/545852330726ca4f5568bc769c5dacc6?s=200"
+    info = "Software, Cloud and DevOps Engineer"
+    gravatar = "ales.loncar@gmail.com"
     
     favicon_32 = "/images/favicon-32x32.ico"
     favicon_16 = "/images/favicon-16x16.ico"
 
-    footercontent = "Daytime maker of code | Midnight baker / cook | Analog photography enthusiast | Wine sipper & Beer lover | Slovenian expat"
+    additionalContent = "Daytime maker of code | Midnight baker / cook | Analog photography enthusiast | Slovenian expat"
 
     dateformat = "January 2, 2006"
 
@@ -34,9 +34,14 @@ disqusShortname = "loncar"
     hideCopyright = false
 
     rtl = false
-
-    # Use inverted colors
-    inverted = false
+    # Specify light/dark colorscheme
+    # Supported values:
+    # "auto" (use preference set by browser)
+    # "dark" (dark background, light foreground)
+    # "light" (light background, dark foreground) (default)
+    colorScheme = "auto"
+    # Hide the toggle button, along with the associated vertical divider
+    hideColorSchemeToggle = false
 
     # Series see also post count
     maxSeeAlsoItems = 5
@@ -73,7 +78,7 @@ url = "/posts/"
 [[menu.main]]
 name = "Resume"
 weight = 3
-url = "/resume/"
+url = "https://flowcv.com/resume/eroq39tbe6"
 
 [[menu.main]]
 name = "Snippets"
