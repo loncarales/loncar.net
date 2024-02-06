@@ -16,11 +16,13 @@ disqusShortname = "loncar"
     author = "Aleš Lončar"
     description = "Aleš Lončar's personal website"
     keywords = "blog,developer,devops,personal,docker,kubernetes,openshift,helm,ansible,terraform,jenkins,gitlab,packer,ci/cd"
-    info = "Software, Cloud and DevOps Engineer"
+    info = "Senior Software, Cloud and DevOps Engineer"
     gravatar = "ales.loncar@gmail.com"
-    
-    favicon_32 = "/images/favicon-32x32.ico"
-    favicon_16 = "/images/favicon-16x16.ico"
+
+    faviconSVG = "/img/favicon.ico"
+    favicon_32 = "/img/favicon-32x32.png"
+    favicon_16 = "/img/favicon-16x16.png"
+    touchIcon = "/img/apple-touch-icon.png"
 
     additionalContent = "Daytime maker of code | Midnight baker / cook | Analog photography enthusiast | Slovenian expat"
 
@@ -38,6 +40,8 @@ disqusShortname = "loncar"
     colorScheme = "light"
     # Hide the toggle button, along with the associated vertical divider
     hideColorSchemeToggle = false
+
+    customCSS = ["/css/custom.css"]
 
     # Series see also post count
     maxSeeAlsoItems = 5
