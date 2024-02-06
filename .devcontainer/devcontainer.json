@@ -1,0 +1,28 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/debian
+{
+  "name": "Hugo",
+  // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+  "image": "mcr.microsoft.com/devcontainers/base:bullseye",
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/go:1": {},
+    "ghcr.io/devcontainers/features/hugo:1": {
+      "extended": true,
+      "version": "0.122.0"
+    }
+  },
+  // Configure tool-specific properties.
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "DavidAnson.vscode-markdownlint",
+        "yzhang.markdown-all-in-one",
+        "EditorConfig.EditorConfig",
+        "tamasfe.even-better-toml",
+        "shuworks.vscode-table-formatter",
+        "streetsidesoftware.code-spell-checker"
+      ]
+    }
+  }
+}

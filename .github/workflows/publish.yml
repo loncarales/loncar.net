@@ -1,0 +1,44 @@
+name: publish-aws-s3
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+env:
+  S3_PROVIDER: aws
+  AWS_REGION: eu-central-1
+
+
+jobs:
+  build-and-deploy:
+    name: Build and Deploy public artifact to S3 bucket
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.122.0'
+          extended: true
+
+      - name: Build static pages
+        run: hugo --minify -v
+
+      - name: Set up S3cmd cli tool
+        uses: s3-actions/s3cmd@v1.5.0
+        with:
+          provider: ${{ env.S3_PROVIDER }}
+          region: ${{ env.AWS_REGION }}
+          access_key: ${{ secrets.S3_ACCESS_KEY }}
+          secret_key: ${{ secrets.S3_SECRET_KEY }}
+
+      - name: Interact with object storage
+        run: |
+          s3cmd sync --acl-public --recursive public/ s3://loncar.net
