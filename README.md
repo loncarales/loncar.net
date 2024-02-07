@@ -12,11 +12,44 @@ cd loncar.net
 ```
 ## Development Requirements
 
-This project uses Dev Containers to ensure a consistent development environment. Ensure you have the following installed:
+This project uses Dev Containers to ensure a consistent development environment, eliminating the need for local installations.
+
+Ensure you have the following installed:
 
 * [Docker](https://www.docker.com)
 * [Visual Studio Code](https://code.visualstudio.com)
 * [Visual Studio Code Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+
+Once you have set up Docker, VS Code, and the Dev Containers extension, you can start working within a containerized development environment that mirrors the project's setup.
+
+### Available Tasks
+
+Within the dev container, there are predefined tasks in `.vscode/tasks.json` to facilitate development:
+
+* **Test Task**: Launches a local Hugo server with draft content included. This is useful for previewing changes in real-time as you develop. To run this task, execute:
+
+ ```bash
+hugo server -D
+```
+
+This command serves your site locally at http://localhost:1313 (default Hugo server address) and includes draft posts (-D flag).
+
+* **Build Task**: Builds the static site with minification and sets the log level to info. This task mirrors the build process used in deployment. To run this task, execute:
+
+```bash
+hugo --minify --logLevel info
+```
+This command prepares your site for production by minifying resources and providing informational logs during the build.
+
+### Executing Tasks
+
+You can execute these tasks manually via the terminal within the dev container or use VS Code's integrated task runner:
+
+1. Open the Command Palette (Ctrl+Shift+P on Windows/Linux, Cmd+Shift+P on macOS).
+2. Type `Tasks: Run` and
+3. Choose either the `Run Test Task` or `Run Build Task` from the list.
+
+This setup ensures that you can easily test and build your blog within a consistent environment, closely mimicking the CI/CD process and reducing the chances of environment-specific bugs.
 
 ## Tools and Services Used
 
@@ -41,7 +74,7 @@ Workflow consists of the following steps:
 
 * Checkout: Checkout repository with additional submodules (Hugo theme)
 * Build: Set up and run Hugo to build the static site from the source.
-* Deploy: Sync the built site to the AWS S3 bucket using the Python [S3cmd](https://github.com/s3tools/s3cmd) CLI tool. The command used is `s3cmd sync --acl-public --recursive public/ s3://loncar.net` This command makes the uploaded files public (--acl-public) and recursively uploads all files within the public/ directory.
+* Deploy: Sync the built site to the AWS S3 bucket using the Python [S3cmd](https://github.com/s3tools/s3cmd) CLI tool. The command used is `s3cmd sync --acl-public --recursive --delete-removed public/ s3://loncar.net` This command makes the uploaded files public (--acl-public) and recursively uploads all files within the public/ directory.
 
 The workflow is triggered on pushes to the main branch or pull request events, ensuring the live site is always up-to-date with the latest changes.
 
