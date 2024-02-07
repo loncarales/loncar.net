@@ -41,4 +41,4 @@ jobs:
 
       - name: Interact with object storage
         run: |
-          s3cmd sync --acl-public --recursive public/ s3://loncar.net
+          s3cmd sync --acl-public --recursive --delete-removed public/ s3://loncar.net
