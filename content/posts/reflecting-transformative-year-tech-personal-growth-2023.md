@@ -12,22 +12,22 @@ As I pause to reflect on the past year, I'm both humbled and invigorated by the 
 
 ## 👨💻 Tech Highlights
 
-* **Diving into Node.js & Express Framework:** For the first time, I had the opportunity to work with Node.js and Express Framework. This was a thrilling leap into new programming languages, enriching my tech repertoire.
-* **Raising the Bar for Code Quality:** An essential client requirement was rigorous testing (unit, integration) with over 80% code coverage. This led to an intense focus on ensuring the quality and reliability of our code.
-* **Innovating for Better Outcomes:** I learned quickly that more than adhering strictly to Express Routers documentation was needed. To improve modularity and testability, I initiated the development of a Simple DI Container.
-* **Embracing Test-Driven Development:** I advocate for TDD, not just as a practice but as a mindset. It compels engineers to consider the cohesion of their code (Single Responsibility Principle) and refactor for testability, going beyond the mere passing of tests.
-* **Learning from Challenges:** We experienced the "spaghetti code effect" in a project where tests were written retroactively. This reinforced my belief in the efficiency of TDD from the project's onset.
-* **Beyond Coding:** My role transcended coding; I was instrumental in the seamless integration of back-end services with the overall system architecture.
-* **Knowledge Sharing:** I created approximately 50 Confluence pages encompassing technical documentation, developers' handbooks, guides, and best practices.
-* **Mentoring and Standards:** I established Code Review Guidelines and Standards and mentored junior developers.
-* **Robust Contributions:** My contributions spanned a dozen different Git repositories, with around 700 contributions. Roughly 400,000 lines were added and deleted (excluding machine-generated and lock files).
-* **Contract Closure:** Although my contract was terminated prematurely due to budget cuts, this experience has only fueled my passion and readiness for future opportunities.
+* **Diving into Node.js & Express Framework**: For the first time, I had the opportunity to work with Node.js and Express Framework. This was a thrilling leap into new programming languages, enriching my tech repertoire.
+* **Raising the Bar for Code Quality**: An essential client requirement was rigorous testing (unit, integration) with over 80% code coverage. This led to an intense focus on ensuring the quality and reliability of our code.
+* **Innovating for Better Outcomes**: I learned quickly that more than adhering strictly to Express Routers documentation was needed. To improve modularity and testability, I initiated the development of a Simple DI Container.
+* **Embracing Test-Driven Development**: I advocate for TDD, not just as a practice but as a mindset. It compels engineers to consider the cohesion of their code (Single Responsibility Principle) and refactor for testability, going beyond the mere passing of tests.
+* **Learning from Challenges**: We experienced the "spaghetti code effect" in a project where tests were written retroactively. This reinforced my belief in the efficiency of TDD from the project's onset.
+* **Beyond Coding**: My role transcended coding; I was instrumental in the seamless integration of back-end services with the overall system architecture.
+* **Knowledge Sharing**: I created approximately 50 Confluence pages encompassing technical documentation, developers' handbooks, guides, and best practices.
+* **Mentoring and Standards**: I established Code Review Guidelines and Standards and mentored junior developers.
+* **Robust Contributions**: My contributions spanned a dozen different Git repositories, with around 700 contributions. Roughly 400,000 lines were added and deleted (excluding machine-generated and lock files).
+* **Contract Closure**: Although my contract was terminated prematurely due to budget cuts, this experience has only fueled my passion and readiness for future opportunities.
 
 ## 👣 Personal Journey
 
-* **Overcoming Business Challenges:** The year also brought some tough lessons. Our family business had to close due to insufficient profitability, a stark reminder of the unpredictable nature of entrepreneurship.
-* **Digital Detox:** In a significant lifestyle change, I closed my Facebook and Instagram accounts, stepping away from the constant noise of social media.
-* **Healthier Choices:** I've completed nine months without alcohol, a personal milestone in pursuing a healthier lifestyle.
+* **Overcoming Business Challenges**: The year also brought some tough lessons. Our family business had to close due to insufficient profitability, a stark reminder of the unpredictable nature of entrepreneurship.
+* **Digital Detox**: In a significant lifestyle change, I closed my Facebook and Instagram accounts, stepping away from the constant noise of social media.
+* **Healthier Choices**: I've completed nine months without alcohol, a personal milestone in pursuing a healthier lifestyle.
 
 ## 📆 Open for Opportunities
 
