@@ -16,6 +16,7 @@
   "customizations": {
     "vscode": {
       "extensions": [
+        "budparr.language-hugo-vscode",
         "DavidAnson.vscode-markdownlint",
         "yzhang.markdown-all-in-one",
         "EditorConfig.EditorConfig",
