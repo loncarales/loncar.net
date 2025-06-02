@@ -86,7 +86,70 @@ We also need to create a file needed for VNC. It does not need to have anything 
 
 I've created a few bash scripts to start and stop the services.
 
-<script src="https://embed.cacher.io/81003bd30c61f811acf941c0032c13ae2a0baf44.js?a=53231413bcdce05e5071ec78a5a831d9&t=atom_one_dark"></script>
+### stop-novnc.sh
+
+```bash
+#!/usr/bin/env bash
+
+# Find the PID of the websockify process
+pid=$(pgrep -f 'websockify')
+
+# Check if websockify process was found
+if [ -z "$pid" ]; then
+  echo "websockify process not found. It may not be running."
+else
+  # Kill the websockify process using its PID
+  kill $pid
+  echo "websockify process (PID: $pid) has been stopped."
+fi
+```
+
+### start-novnc.sh
+
+```bash
+#!/usr/bin/env bash
+
+# Default VNC port
+default_vnc_port="5900"
+
+# # Use provided port or default
+vnc_port=${1:-$default_vnc_port}
+
+# Run the websockify command to start noVNC
+websockify -D --web /usr/share/novnc/ 8081 localhost:$vnc_port
+```
+
+### stop-vnc.sh
+
+```bash
+#!/usr/bin/env bash
+
+# Default display
+default_display=":0"
+
+# Use provided display or default
+display=${1:-$default_display}
+
+# Kill the TigerVNC server on the specified display
+tigervncserver -kill $display
+```
+
+### start-vnc.sh
+
+```bash
+#!/usr/bin/env bash
+
+# Default values for geometry and depth
+default_geometry="1920x1080"
+default_depth="32"
+
+# Use provided values or defaults
+geometry=${1:-$default_geometry}
+depth=${2:-$default_depth}
+
+# Run the tigervncserver command with the specified or default parameters
+tigervncserver -xstartup /usr/bin/xfce4-session -localhost -depth $depth -geometry $geometry -display :0
+```
 
 ## Why Not x11vnc?
 

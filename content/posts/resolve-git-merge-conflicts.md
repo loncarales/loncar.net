@@ -75,7 +75,22 @@ $ git reset
 
 ## Example: Creating a merge conflict
 
-<script src="https://embed.cacher.io/82523f825d3bf911fdf945c0032d49f57a08a113.js?a=a3c18eac0c35d4e521489c80f92a4c71&t=atom_one_dark"></script>
+```bash
+mkdir git-merge-test
+cd git-merge-test
+git init
+touch merge.txt
+git add merge.txt
+echo "this is some content to mess with" > merge.txt
+git commit -am 'we are commiting the inital content'
+git checkout -b new_branch_to_merge_later
+echo "totally different content to merge later" > merge.txt
+git commit -am 'edited the content of merge.txt to cause a conflict'
+git checkout master
+echo "content to append" >> merge.txt
+git commit -am"appended content to merge.txt"
+git merge new_branch_to_merge_later
+```
 
 If you would like to setup P4Merge as your favourite git merging tool, take a look at the following snippet:
 

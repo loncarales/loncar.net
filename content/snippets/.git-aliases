@@ -1,0 +1,78 @@
+# Make sure you're adding under the [alias] block.
+[alias]
+    st = status
+    s = status -s -b
+    a = add
+    ap = add -p
+    c = commit --verbose
+    ca = commit -a --verbose
+    cm = commit -m
+    cam = commit -a -m
+    m = commit --amend --verbose
+
+    d = diff
+    ds = diff --staged
+    dch = diff --name-status -r
+    dca = diff --cached
+
+    co = checkout
+    cob = checkout -b
+
+    fo = fetch origin
+    po = push origin
+
+    m = merge
+    mstop = merge --no-commit
+    mff = merge --no-ff
+    mffstop = merge --no-ff --no-commit
+
+    pi = cherry-pick -x
+    pigo = cherry-pick --continue
+    pistop = cherry-pick -x --no-commit
+    
+    # push all
+    pushitgood = !echo 'Ah, push it' && git push -u origin --all && echo 'P-push it real good'
+
+    # Undo clashes with git-extras
+    rh = reset --hard
+    unstage = reset HEAD --
+
+    # delete merged branch
+    cleanmerged = !git branch --merged | grep -v \"\\*\" | xargs -n 1 git branch -d
+
+    # When used without any argument it will print all changes since the last tag (changelog clashes with git-extras)
+    changes = "!f() { r=${1:-`git describe --tags --abbrev=0`..HEAD}; echo Changelog for $r; git log --reverse --no-merges --format='* %s' $r; }; f"
+
+    ## Logs ##
+    ##########
+    # one-line log
+    l = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short
+    hist = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+    tree = log --oneline --decorate --graph
+    last = log -1 HEAD
+
+    new = !sh -c 'git log $1@{1}..$1@{0} "$@"'
+    whois = "!sh -c 'git log -i -1 --pretty=\"format:%an <%ae>\n\" --author=\"$1\"' -"
+    whatis = show -s --pretty='tformat:%h (%s, %ad)' --date=short
+
+    # list branches sorted by last modified
+    b = "!git for-each-ref --sort='-authordate' --format='%(authordate)%09%(objectname:short)%09%(refname)' refs/heads | sed -e 's-refs/heads/--'"
+
+    lg = !git log --pretty=format:\"%C(magenta)%h%Creset -%C(red)%d%Creset %s %C(dim green)(%cr) [%an]\" --abbrev-commit -30
+    br = branch --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) %(color:green)(%(committerdate:relative)) [%(authorname)]' --sort=-committerdate
+    gone = ! "git fetch -p && git for-each-ref --format '%(refname:short) %(upstream:track)' | awk '$2 == \"[gone]\" {print $1}' | xargs -r git branch -D"
+    
+    # Git Commit, Add all and Push — in one step.
+    cap = "!f() { git add .; git commit -m \"$@\"; git push; }; f"
+    # NEW.
+    new = "!f() { git cap \"📦 NEW: $@\"; }; f"
+    # IMPROVE.
+    imp = "!f() { git cap \"👌 IMPROVE: $@\"; }; f"
+    # FIX.
+    fix = "!f() { git cap \"🐛 FIX: $@\"; }; f"
+    # RELEASE.
+    rlz = "!f() { git cap \"🚀 RELEASE: $@\"; }; f"
+    # DOC.
+    doc = "!f() { git cap \"📖 DOC: $@\"; }; f"
+    # TEST.
+    tst = "!f() { git cap \"✅ TEST: $@\"; }; f"

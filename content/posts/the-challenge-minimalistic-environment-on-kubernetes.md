@@ -89,5 +89,3 @@ Each and every one of us is unique. Each of us also has it's own learning style.
   * Declarative Jenkins pipeline without deployment stage. It's an ideal solution for the simple continuous delivery pipeline as it has very limited and pre-defined structure.
 * gitlab-ci.yml
   * Simple GitLab CI/CD pipeline without deployment stage. It can be seen in action in [**Pipelines**](https://gitlab.com/loncarales/mojo-blog/pipelines) page.
-
-<script src="https://embed.cacher.io/d5576a870d37ac43fba8159a0d2a1ba42e59ac14.js?a=4215a96de56766e93f89dad6844ebd57&t=atom_one_dark"></script>

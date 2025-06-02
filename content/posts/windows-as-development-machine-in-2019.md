@@ -24,7 +24,7 @@ Since years I've been avoiding Windows as much as I could for professional use, 
 
 As an example, the [Visual Studio Code](https://code.visualstudio.com/updates/v1_32) got three updates in February 2019.
 
-{{< tweet 993546257988833280 >}}
+{{< x user="msdev" id="993546257988833280" >}}
 
 ## Why Windows now, why don't you code on Linux?
 

@@ -48,7 +48,51 @@ For further ideas on how to test with Ansible reference the [documentation](http
 
 Let's look at a simple example. Let's say we would like to use Molecule to test if some set of packages were installed within the role.
 
-<script src="https://embed.cacher.io/83033f810a34fe12fdfe17c25f2912a07e5df849.js?a=76a9a466e1d031fde614de99eb7cc545&t=atom_one_dark"></script>
+## Ansible way
+
+```yaml
+---
+
+- name: Verify
+  hosts: all
+
+  tasks:
+    - name: Gather the package manager facts
+      package_facts:
+        manager: auto
+
+    - name: Assert that following packages are installed
+      assert:
+        that:
+          - "'docker-ce' in ansible_facts.packages"
+          - "'kubelet' in ansible_facts.packages"
+          - "'kubectl' in ansible_facts.packages"
+          - "'kubeadm' in ansible_facts.packages"
+```
+
+## Testinfra way
+
+```python
+import os
+import pytest
+
+import testinfra.utils.ansible_runner
+
+testinfra_hosts = testinfra.utils.ansible_runner.AnsibleRunner(
+    os.environ['MOLECULE_INVENTORY_FILE']).get_hosts('all')
+
+
+@pytest.mark.parametrize('pkg', [
+  'docker-ce',
+  'kubelet',
+  'kubectl',
+  'kubeadm'
+])
+def test_pkg(host, pkg):
+    package = host.package(pkg)
+
+    assert package.is_installed
+```
 
 What do you think?
 

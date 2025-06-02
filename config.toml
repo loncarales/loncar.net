@@ -6,7 +6,8 @@ theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
-paginate = 20
+[pagination]
+  pagerSize = 20
 enableEmoji = true
 
 googleAnalytics = "UA-111608998-1"
@@ -92,3 +93,6 @@ url = "/contact/"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+  [markup.highlight]
+    noClasses = false
+    style = "monokai"
