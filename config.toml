@@ -18,7 +18,7 @@ disqusShortname = "loncar"
     description = "Aleš Lončar's personal website"
     keywords = "blog,developer,devops,personal,docker,kubernetes,openshift,helm,ansible,terraform,jenkins,gitlab,packer,ci/cd"
     info = "Principal Cloud Solutions Engineer"
-    gravatar = "ales.loncar@gmail.com"
+    gravatar = "ales.loncar+github@gmail.com"
 
     faviconSVG = "/img/favicon.ico"
     favicon_32 = "/img/favicon-32x32.png"
