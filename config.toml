@@ -10,8 +10,11 @@ defaultcontentlanguage = "en"
   pagerSize = 20
 enableEmoji = true
 
-googleAnalytics = "UA-111608998-1"
-disqusShortname = "loncar"
+[services]
+  [services.disqus]
+    shortname = "loncar"
+  [services.googleAnalytics]
+    id = 'G-BEWRHJGSN7'
 
 [params]
     author = "Aleš Lončar"
