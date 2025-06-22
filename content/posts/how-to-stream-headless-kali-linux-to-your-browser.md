@@ -170,3 +170,7 @@ Now, my Kali Linux system runs unencumbered by physical peripherals, and its gra
 ## Small Demonstration
 
 {{< youtube wq25LEkXAhw >}}
+
+---
+
+> And remember, contributions earn you karma. 😜

@@ -18,9 +18,9 @@ enableEmoji = true
 
 [params]
     author = "Aleš Lončar"
-    description = "Aleš Lončar's personal website"
-    keywords = "blog,developer,devops,personal,docker,kubernetes,openshift,helm,ansible,terraform,jenkins,gitlab,packer,ci/cd"
-    info = "Principal Cloud Solutions Engineer"
+    description = "Freelance Senior Cloud & DevOps Engineer with 25+ years experience in automation, security, and business transformation"
+    keywords = "freelance,cloud devops engineer,automation,security,kubernetes,docker,terraform,ansible,business consultant,ci/cd,cloud transformation"
+    info = "Freelance Senior Cloud & DevOps Engineer"
     gravatar = "ales.loncar+github@gmail.com"
 
     faviconSVG = "/img/favicon.ico"
@@ -28,7 +28,7 @@ enableEmoji = true
     favicon_16 = "/img/favicon-16x16.png"
     touchIcon = "/img/apple-touch-icon.png"
 
-    additionalContent = "Daytime maker of code | Midnight baker / cook | Analog photography enthusiast | Slovenian expat"
+    additionalContent = "25+ years crafting software solutions | Specializing in cloud automation & security | Empowering business innovation | Midnight baker | Analog photography enthusiast | Slovenian expat"
 
     dateformat = "January 2, 2006"
 
@@ -79,7 +79,7 @@ url = "/posts/"
 [[menu.main]]
 name = "Resume"
 weight = 3
-url = "https://flowcv.com/resume/eroq39tbe6"
+url = "/resume/"
 
 [[menu.main]]
 name = "Snippets"

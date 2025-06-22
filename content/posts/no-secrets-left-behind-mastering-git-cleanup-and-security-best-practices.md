@@ -73,3 +73,7 @@ The best defence against sensitive data exposure is a good offence. Implementing
 ## Conclusion
 
 The journey through cleansing Git repositories and securing CI/CD pipelines underscores a broader theme in software development: the paramount importance of vigilance and proactive security measures. The lessons learned extend beyond the technical nuances of Git history rewriting tools on fundamental principles every developer should internalize: **Never store sensitive data in Git with the old but gold; never trust the user input blindly.**
+
+---
+
+> And remember, contributions earn you karma. 😜

@@ -216,4 +216,6 @@ Stop accepting the broken status quo of HTTP only local development. **Your prod
 
 **Ready to bridge the gap?** Check out the [kind-anchor-lab repository](https://github.com/loncarales/kind-anchor-lab) for a full experience.
 
+---
+
 > And remember, contributions earn you karma. 😜

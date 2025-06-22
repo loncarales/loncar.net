@@ -10,6 +10,7 @@ To clone this repository and start contributing, follow these steps:
 git clone https://github.com/loncarales/loncar.net.git
 cd loncar.net
 ```
+
 ## Development Requirements
 
 This project uses Dev Containers to ensure a consistent development environment, eliminating the need for local installations.
@@ -39,6 +40,7 @@ This command serves your site locally at http://localhost:1313 (default Hugo ser
 ```bash
 hugo --minify --logLevel info
 ```
+
 This command prepares your site for production by minifying resources and providing informational logs during the build.
 
 ### Executing Tasks
@@ -74,7 +76,7 @@ Workflow consists of the following steps:
 
 * Checkout: Checkout repository with additional submodules (Hugo theme)
 * Build: Set up and run Hugo to build the static site from the source.
-* Deploy: Sync the built site to the AWS S3 bucket using the Python [S3cmd](https://github.com/s3tools/s3cmd) CLI tool. The command used is `s3cmd sync --acl-public --recursive --delete-removed public/ s3://loncar.net` This command makes the uploaded files public (--acl-public) and recursively uploads all files within the public/ directory.
+* Deploy: Sync the built site to an AWS S3 bucket using the AWS CLI (recommended for use in CI/CD pipelines). This approach ensures proper MIME types, caching headers, and public-read access.
 
 The workflow is triggered on pushes to the main branch or pull request events, ensuring the live site is always up-to-date with the latest changes.
 
@@ -112,11 +114,13 @@ The policy attached to this user is as follows:
     ]
 }
 ```
+
 This policy ensures the user can list all buckets (needed by the S3cmd tool to find the correct one for syncing) and manage objects within the `loncar.net` bucket, including setting ACLs to make objects public.
 
 ### Testing Workflows Locally
 
 To test the GitHub Actions workflow locally, I use [act](https://github.com/nektos/act). After installing the act, you can simulate the workflow by running the following command in the repository root:
+
 ```bash
 act -W .github/workflows/publish.yml --secret-file .secrets
 ```

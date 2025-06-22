@@ -34,3 +34,7 @@ As I pause to reflect on the past year, I'm both humbled and invigorated by the 
 > I am eagerly looking forward to engaging in new challenges as a Freelance Cloud Native Engineer starting from February 5, 2024.
 
 As I stand at the crossroads of endings and new beginnings, I am grateful for the lessons learned and excited for the uncharted paths ahead. I welcome connections, opportunities, and collaborations as I embark on this next chapter of my journey. Here's to a year of growth, learning, and new adventures! 🌟
+
+---
+
+> And remember, contributions earn you karma. 😜

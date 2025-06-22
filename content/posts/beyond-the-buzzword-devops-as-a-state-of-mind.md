@@ -49,3 +49,7 @@ Despite their claims of DevOps expertise, I've observed instances where develope
 The true spirit of DevOps lies in its philosophy of ownership, collaboration, and continuous learning. It's about embracing challenges, diving into the logs to understand failures, and viewing every obstacle as an opportunity for growth. DevOps is not confined to specific roles or technologies; it is a mindset that can transform how organisations develop, deliver, and maintain their software. Adopting DevOps is more than just implementing tools or hiring individuals with "DevOps Engineer" on their resumes. It is about fostering a culture where **every team member is committed to improvement, innovation, and accountability**.
 
 In conclusion, my journey with DevOps began long before the term was popularised. It is rooted in practices and principles that have withstood the test of time. Let's look beyond the buzzword and embrace DevOps as a state of mind. **It should be about owning and running your work, being a Boy Scout, emphasising continued learning, automating repetitive tasks, integrating and delivering frequently, and fostering innovation and continuous improvement. And last but not least, improving daily work is more important than doing daily work**.
+
+---
+
+> And remember, contributions earn you karma. 😜

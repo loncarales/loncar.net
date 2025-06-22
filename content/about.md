@@ -3,13 +3,16 @@ title = "About Me"
 slug = "about"
 +++
 
-With a strong technical background and two decades of experience spanning various client, server and cloud infrastructure technologies. I'm a Developer in the heart with DevOps in mind. I always leave code and processes in better shape than when I first encountered them (Boy Scout Rule). Proactive problem solver. A team player and passionate about working with talented teammates. I like to learn, experiment and utilise new technologies, concepts and procedures as appropriate to project requirements. I embrace Cloud Native, and I like to build software in a “You build it, you run it” manner.
+As a seasoned **Cloud and DevOps Engineer**, I bring a unique approach to the table. With over two decades of hands-on experience, I've honed a method that combines deep technical expertise with a craftsman's mindset. I adhere to the **Boy Scout Rule**, always striving to leave every codebase, infrastructure setup, and process in better shape than I found it.
 
+I specialize in cloud-native architectures, infrastructure as code, and CI/CD automation, with a particular focus on platform engineering that empowers development teams. What drives me is the intersection of solid engineering principles and operational excellence, designing systems that are not only scalable and secure but also a joy for teams to work with.
+
+I thrive in environments where I can mentor teams while continuously learning and experimenting with emerging technologies. Whether I'm architecting a new platform or troubleshooting a complex distributed system, I bring a deep technical understanding and a collaborative spirit that ensures we deliver the results that matter.
+
+Outside of the terminal, I'm a curious learner, nighttime baker, and analog photography enthusiast. These personal interests not only provide a balance to my professional life but also inspire me to explore the intersection of creativity and engineering in new and exciting ways.
 
 > Uncle Bob in Clean Code states, "the Boy Scout Rule tells us we should leave the code cleaner than we found it." Another words, when we make changes to the code base, we should make sure we are leaving it (checking in to repository) cleaner.
 
 ## References
 
-* [Summary of 'Clean code' by Robert C. Martin](https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29) ~ GitHub
 * [Boy Scout Rule](http://www.informit.com/articles/article.aspx?p=1235624&seqNum=6) ~ Blog
-* [Code Smell](https://en.wikipedia.org/wiki/Software_rot) ~ Wiki
