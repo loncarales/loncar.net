@@ -6,6 +6,12 @@ tags = ["Kubernetes", "Minikube", "AI", "LLM", "Ollama", "OpenWebUI", "Docker", 
 categories = ["AI & Machine Learning", "DevOps", "Kubernetes", "TLS", "Self Hosted", "HomeLab"]
 +++
 
+{{< figure src="https://cdn.loncar.net/ollama_open_web_ui.png" alt="This image is a conceptual representation and does not reflect the exact service architecture of Ollama and OpenWebUI on Minikube." caption="This image is a conceptual representation and does not reflect the exact service architecture of Ollama and OpenWebUI on Minikube." >}}
+
+## 🔄 TL;DR
+
+> Skip the pain of complex AI deployments and GPU requirements. Use Minikube + Ollama + OpenWebUI to get a complete local LLM stack with HTTPS in one command - works on any machine with or without GPU.
+
 Running large language models (LLMs) locally has never been easier. What if I told you that you could deploy a complete AI stack with Ollama and OpenWebUI on Kubernetes with just **one command**? There are no complex configurations or manual setup steps - just pure automation.
 
 This project lets you deploy [Ollama](https://ollama.ai/) and [OpenWebUI](https://github.com/open-webui/open-webui/) on [Minikube](https://minikube.sigs.k8s.io/) with a single command. It works on **Linux**, **macOS**, and **Windows[^1]**, with or without GPU[^2] support, and includes:
@@ -110,6 +116,8 @@ make
 
 ### Accessing Your AI Stack
 
+{{< figure src="https://cdn.loncar.net/openwebui_with_local_tls.png" alt="Web UI via OpenWebUI (with proper local TLS setup)" caption="Web UI via OpenWebUI (with proper local TLS setup)" >}}
+
 Once deployed, open your browser and navigate to:
 
 ```bash
@@ -134,6 +142,8 @@ You can verify GPU access (if available) with:
 ```bash
 kubectl exec -it -n ollama $(kubectl get pods -n ollama -l app.kubernetes.io/name=ollama -o name) -- nvidia-smi
 ```
+
+{{< figure src="https://cdn.loncar.net/run_a_simple_inference.png" alt="Dynamic distribution between CPU/GPU" caption="Dynamic distribution between CPU/GPU" >}}
 
 Run a quick inference:
 
