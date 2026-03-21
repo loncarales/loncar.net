@@ -1,0 +1,95 @@
+{{ define "title" }}
+{{ .Title }} · {{ .Site.Title }}
+{{ end }}
+
+{{ define "content" }}
+<section class="container post">
+    <article>
+        <header>
+            <div class="post-title">
+                <h1 class="title">
+                    <a class="title-link" href="{{ .Permalink | safeURL }}">
+                        {{ .Title }}
+                    </a>
+                </h1>
+            </div>
+
+            <div class="post-meta">
+                <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+                {{ .Date | time.Format (.Site.Params.dateFormat | default "January 2, 2006") }}
+                </time>
+            </span>
+                    <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              {{ i18n "reading_time" .ReadingTime }}
+            </span>
+                </div>
+
+                {{ with .GetTerms "categories" }}{{ partial "taxonomy/categories.html" . }}{{ end }}
+                {{ with .GetTerms "tags" }}{{ partial "taxonomy/tags.html" . }}{{ end }}
+            </div>
+        </header>
+
+        <div class="post-content">
+            {{ with .Params.recipe_description }}
+            <section class="recipe-description">
+                <p>{{ . }}</p>
+            </section>
+            {{ end }}
+
+            {{ if or .Params.prep_time .Params.cook_time .Params.servings .Params.course .Params.country_region .Params.ingredients }}
+            <section class="recipe-meta">
+                <div class="recipe-meta-grid">
+                    <div class="recipe-meta-col">
+                        {{ with .Params.prep_time }}
+                        <p><strong>Preparation time:</strong> {{ . }}</p>
+                        {{ end }}
+                        {{ with .Params.cook_time }}
+                        <p><strong>Making time:</strong> {{ . }}</p>
+                        {{ end }}
+                    </div>
+
+                    <div class="recipe-meta-col">
+                        {{ with .Params.servings }}
+                        <p><strong>Servings:</strong> {{ . }}</p>
+                        {{ end }}
+                        {{ with .Params.course }}
+                        <p><strong>Course:</strong> {{ . }}</p>
+                        {{ end }}
+                        {{ with .Params.country_region }}
+                        <p><strong>Country/Region:</strong> {{ . }}</p>
+                        {{ end }}
+                    </div>
+                </div>
+
+                {{ with .Params.ingredients }}
+                <h2>Ingredients</h2>
+                <ul>
+                    {{ range . }}
+                    <li>{{ . }}</li>
+                    {{ end }}
+                </ul>
+                {{ end }}
+            </section>
+            {{ end }}
+
+            {{ .Content }}
+        </div>
+
+        <footer>
+            {{ partial "posts/disqus.html" . }}
+            {{ partial "posts/commento.html" . }}
+            {{ partial "posts/utterances.html" . }}
+            {{ partial "posts/giscus.html" . }}
+            {{ partial "posts/mastodon.html" . }}
+            {{ partial "posts/telegram.html" . }}
+            {{ partial "posts/cusdis.html" . }}
+        </footer>
+    </article>
+
+    {{ partial "posts/math.html" . }}
+</section>
+{{ end }}

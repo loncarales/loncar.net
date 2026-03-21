@@ -28,7 +28,7 @@ enableEmoji = true
     favicon_16 = "/img/favicon-16x16.png"
     touchIcon = "/img/apple-touch-icon.png"
 
-    additionalContent = "25+ years crafting software solutions | Specializing in cloud automation & security | Empowering business innovation | Midnight baker | Analog photography enthusiast | Slovenian expat"
+    additionalContent = "25+ years crafting software solutions | Specializing in cloud automation & security | Empowering business innovation | Midnight cook & baker | Analog photography enthusiast | Slovenian expat"
 
     dateformat = "January 2, 2006"
 
@@ -47,7 +47,7 @@ enableEmoji = true
 
     customCSS = ["/css/custom.css"]
 
-    # Series see also post count
+    # Series see also post-count
     maxSeeAlsoItems = 5
 
 [taxonomies]
@@ -87,8 +87,13 @@ weight = 4
 url = "/snippets/"
 
 [[menu.main]]
-name = "Contact"
+name = "Recipes"
 weight = 5
+url = "/recipes/"
+
+[[menu.main]]
+name = "Contact"
+weight = 6
 url = "/contact/"
 
 [markup]
