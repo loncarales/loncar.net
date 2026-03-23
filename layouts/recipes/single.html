@@ -40,39 +40,84 @@
             </section>
             {{ end }}
 
-            {{ if or .Params.prep_time .Params.cook_time .Params.servings .Params.course .Params.country_region .Params.ingredients }}
-            <section class="recipe-meta">
+            {{ if or .Params.prep_time .Params.cook_time .Params.servings .Params.course .Params.country_region }}
+            <section class="recipe-meta-card">
                 <div class="recipe-meta-grid">
                     <div class="recipe-meta-col">
                         {{ with .Params.prep_time }}
-                        <p><strong>Preparation time:</strong> {{ . }}</p>
+                        <div class="recipe-meta-item">
+                            <div class="recipe-meta-icon">
+                                <i class="fa-solid fa-clock" aria-hidden="true"></i>
+                            </div>
+                            <div class="recipe-meta-text">
+                                <span class="recipe-meta-label">Preparation time</span>
+                                <span class="recipe-meta-value">{{ . }}</span>
+                            </div>
+                        </div>
                         {{ end }}
+
                         {{ with .Params.cook_time }}
-                        <p><strong>Making time:</strong> {{ . }}</p>
+                        <div class="recipe-meta-item">
+                            <div class="recipe-meta-icon">
+                                <i class="fa-solid fa-hourglass-half" aria-hidden="true"></i>
+                            </div>
+                            <div class="recipe-meta-text">
+                                <span class="recipe-meta-label">Making time</span>
+                                <span class="recipe-meta-value">{{ . }}</span>
+                            </div>
+                        </div>
                         {{ end }}
                     </div>
 
                     <div class="recipe-meta-col">
                         {{ with .Params.servings }}
-                        <p><strong>Servings:</strong> {{ . }}</p>
+                        <div class="recipe-meta-item">
+                            <div class="recipe-meta-icon">
+                                <i class="fa-solid fa-users" aria-hidden="true"></i>
+                            </div>
+                            <div class="recipe-meta-text">
+                                <span class="recipe-meta-label">Servings</span>
+                                <span class="recipe-meta-value">{{ . }}</span>
+                            </div>
+                        </div>
                         {{ end }}
+
                         {{ with .Params.course }}
-                        <p><strong>Course:</strong> {{ . }}</p>
+                        <div class="recipe-meta-item">
+                            <div class="recipe-meta-icon">
+                                <i class="fa-solid fa-utensils" aria-hidden="true"></i>
+                            </div>
+                            <div class="recipe-meta-text">
+                                <span class="recipe-meta-label">Course</span>
+                                <span class="recipe-meta-value">{{ . }}</span>
+                            </div>
+                        </div>
                         {{ end }}
+
                         {{ with .Params.country_region }}
-                        <p><strong>Country/Region:</strong> {{ . }}</p>
+                        <div class="recipe-meta-item">
+                            <div class="recipe-meta-icon">
+                                <i class="fa-solid fa-earth-europe" aria-hidden="true"></i>
+                            </div>
+                            <div class="recipe-meta-text">
+                                <span class="recipe-meta-label">Country / Region</span>
+                                <span class="recipe-meta-value">{{ . }}</span>
+                            </div>
+                        </div>
                         {{ end }}
                     </div>
                 </div>
+            </section>
+            {{ end }}
 
-                {{ with .Params.ingredients }}
+            {{ with .Params.ingredients }}
+            <section class="recipe-ingredients">
                 <h2>Ingredients</h2>
                 <ul>
                     {{ range . }}
                     <li>{{ . }}</li>
                     {{ end }}
                 </ul>
-                {{ end }}
             </section>
             {{ end }}
 
