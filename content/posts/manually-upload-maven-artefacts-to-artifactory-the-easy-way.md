@@ -2,6 +2,8 @@
 date = 2020-05-25T20:36:21+02:00
 title = "Manually upload Maven artefacts to Artifactory the easy way"
 slug = "manually-upload-maven-artefacts-to-artifactory-the-easy-way"
+tags = ["Maven", "Artifactory", "JFrog"]
+categories = ["DevOps"]
 +++
 
 ```bash

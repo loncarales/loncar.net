@@ -72,28 +72,23 @@ weight = 1
 url = "/about/"
 
 [[menu.main]]
-name = "Blog"
-weight = 2
-url = "/posts/"
-
-[[menu.main]]
 name = "Resume"
-weight = 3
+weight = 2
 url = "/resume/"
 
 [[menu.main]]
-name = "Snippets"
-weight = 4
-url = "/snippets/"
+name = "Blog"
+weight = 3
+url = "/posts/"
 
 [[menu.main]]
 name = "Recipes"
-weight = 5
+weight = 4
 url = "/recipes/"
 
 [[menu.main]]
 name = "Contact"
-weight = 6
+weight = 5
 url = "/contact/"
 
 [markup]

@@ -2,6 +2,8 @@
 date = 2019-06-03T21:54:59+02:00
 title = "Git for Windows: Filename too long"
 slug = "git-for-windows-filename-too-long"
+tags = ["Git", "Windows"]
+categories = ["Professional Development"]
 +++
 
 ```bash
