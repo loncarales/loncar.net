@@ -46,6 +46,7 @@ enableEmoji = true
     hideColorSchemeToggle = false
 
     customCSS = ["/css/custom.css"]
+    customJS = ["js/lightbox.js"]
 
     # Series see also post-count
     maxSeeAlsoItems = 5

@@ -17,7 +17,7 @@
     {{- end -}}
 
     <figure class="gallery-item">
-        <a href="{{ $src }}" target="_blank" rel="noopener">
+        <a href="{{ $src }}" class="gallery-lightbox-trigger" data-lightbox-src="{{ $src }}" data-lightbox-alt="{{ $alt }}" data-lightbox-caption="{{ $caption }}">
             <img src="{{ $src }}" alt="{{ $alt }}" loading="lazy">
         </a>
         {{- if $caption -}}
@@ -26,4 +26,12 @@
     </figure>
     {{- end -}}
     {{- end -}}
+</div>
+
+<div class="lightbox-overlay" id="gallery-lightbox" aria-hidden="true">
+    <button class="lightbox-close" type="button" aria-label="Close image">×</button>
+    <figure class="lightbox-content">
+        <img class="lightbox-image" src="" alt="">
+        <figcaption class="lightbox-caption"></figcaption>
+    </figure>
 </div>
