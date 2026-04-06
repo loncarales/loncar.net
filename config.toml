@@ -11,8 +11,6 @@ defaultcontentlanguage = "en"
 enableEmoji = true
 
 [services]
-  [services.disqus]
-    shortname = "loncar"
   [services.googleAnalytics]
     id = 'G-BEWRHJGSN7'
 
