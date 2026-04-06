@@ -9,7 +9,6 @@ concert_date = "2001-06-14"
 artist = "The Cure"
 venue = "Tivoli"
 location = "Ljubljana, Slovenia"
-camera = "Nikon F90X"
 film = "Kodak Tri-X 400"
 featuredImage = "/images/stage/the-cure-tivoli.jpg"
 +++

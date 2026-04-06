@@ -10,7 +10,6 @@ venue = ""
 artist = ""
 location = ""
 concert_date = ""
-camera = ""
 film = ""
 featuredImage = ""
 +++
