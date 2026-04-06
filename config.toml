@@ -87,8 +87,13 @@ weight = 4
 url = "/recipes/"
 
 [[menu.main]]
-name = "Contact"
+name = "Stage"
 weight = 5
+url = "/stage/"
+
+[[menu.main]]
+name = "Contact"
+weight = 6
 url = "/contact/"
 
 [markup]

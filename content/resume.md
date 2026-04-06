@@ -3,9 +3,9 @@ title = "Who I Am and What I Do"
 slug = "resume"
 +++
 
-My resume tells the story:
+My résumé tells the story:
 
-I help companies build secure, automated, and scalable cloud platforms — hands-on.
+I help companies build secure, automated, and scalable cloud platforms, hands-on.
 
 Choose your language to view the latest version:
 

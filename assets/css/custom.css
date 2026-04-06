@@ -8,6 +8,7 @@
     width: 49%;
 }
 
+/* Recipes Section */
 .recipe-description {
     margin-bottom: 1.5rem;
 }
@@ -86,6 +87,71 @@
 
 @media (max-width: 640px) {
     .recipe-meta-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Stage Section */
+.stage-meta-card {
+    margin: 1.5rem 0;
+    padding: 1.25rem 1.25rem 1rem;
+    border: 1px solid var(--border-color, rgba(127, 127, 127, 0.2));
+    border-radius: 12px;
+    background: var(--card-background, rgba(127, 127, 127, 0.06));
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.stage-meta-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem 2rem;
+}
+
+.stage-meta-item {
+    display: grid;
+    grid-template-columns: 1.25rem minmax(0, 1fr);
+    column-gap: 0.7rem;
+    align-items: start;
+}
+
+.stage-meta-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.25rem;
+    line-height: 1;
+    padding-top: 0.15rem;
+}
+
+.stage-meta-icon i {
+    line-height: 1;
+    opacity: 0.85;
+}
+
+.stage-meta-text {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.stage-meta-label {
+    display: block;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    opacity: 0.75;
+    margin-bottom: 0.1rem;
+    line-height: 1.2;
+}
+
+.stage-meta-value {
+    display: block;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+@media (max-width: 640px) {
+    .stage-meta-grid {
         grid-template-columns: 1fr;
     }
 }
