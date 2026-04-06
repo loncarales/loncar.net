@@ -1,9 +1,9 @@
 +++
-title = "Stage: Concert Photography, 1998-2005"
-description = "A personal archive of live music photography from the concert years."
+title = "Stage: Around the Millennium"
+description = "A personal archive of photographs from around the millennium."
 +++
 
-A personal archive of live music moments from 1998 to 2005, captured from the stage, the crowd, and the chaos in between.
+A personal archive of photographs from around the millennium: live music, public appearances, and a few memorable encounters captured with a camera in hand.
 
 These photographs were made with a mix of Canon and Nikon film bodies, using manual and autofocus lenses ranging from standard primes to short tele and zooms. Flash was occasionally part of the kit.
 
@@ -15,4 +15,8 @@ These photographs were made with a mix of Canon and Nikon film bodies, using man
 
 **Flash:** Metz 40 Mz-1i, Metz 45 CT-4, Canon Speedlite 550 EX
 
-Most of the photos were shot without a flash, as it was not allowed at concerts. They were all handheld, and no special filters were used.
+Most of the photos were shot without a flash, it's not allowed at concerts. They were all handheld, and no special filters were used.
+
+## Prints and Licensing
+
+If you’re interested in a print or would like to discuss licensing or purchasing a photo, please [get in touch](/contact/).

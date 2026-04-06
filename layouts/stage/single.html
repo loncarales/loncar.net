@@ -99,7 +99,7 @@
             </section>
 
             {{ with .Params.featuredImage }}
-            <img src="{{ . | relURL }}" alt="Featured image"/>
+            <img src="{{ . }}" alt="Featured image"/>
             {{ end }}
 
             {{ .Content }}
