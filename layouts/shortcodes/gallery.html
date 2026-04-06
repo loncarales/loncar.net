@@ -1,0 +1,29 @@
+{{- $items := split (trim .Inner " \t\r\n") "\n" -}}
+<div class="gallery-grid">
+    {{- range $items -}}
+    {{- $line := trim . " \t\r" -}}
+    {{- if $line -}}
+    {{- $parts := split $line "|" -}}
+    {{- $src := trim (index $parts 0) " \t\r" -}}
+    {{- $alt := "" -}}
+    {{- $caption := "" -}}
+
+    {{- if ge (len $parts) 2 -}}
+    {{- $alt = trim (index $parts 1) " \t\r" -}}
+    {{- end -}}
+
+    {{- if ge (len $parts) 3 -}}
+    {{- $caption = trim (index $parts 2) " \t\r" -}}
+    {{- end -}}
+
+    <figure class="gallery-item">
+        <a href="{{ $src }}" target="_blank" rel="noopener">
+            <img src="{{ $src }}" alt="{{ $alt }}" loading="lazy">
+        </a>
+        {{- if $caption -}}
+        <figcaption>{{ $caption }}</figcaption>
+        {{- end -}}
+    </figure>
+    {{- end -}}
+    {{- end -}}
+</div>
