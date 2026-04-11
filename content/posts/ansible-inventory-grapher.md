@@ -2,6 +2,8 @@
 date = 2020-05-24T20:25:29+02:00
 title = "Ansible Inventory Grapher"
 slug = "ansible-inventory-grapher"
+tags = ["Ansible", "GraphViz"]
+categories = ["DevOps"]
 +++
 
 Ansible Inventory Grapher generates inventory graphs, so we can quickly see what groups are used for a particular host in Ansible inventory. The tool creates a [GraphViz](http://www.graphviz.org) DOT file format in quite an opinionated fashion (currently there is no way to choose fonts or shapes, the program decides for you!)

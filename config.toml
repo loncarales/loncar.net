@@ -11,16 +11,14 @@ defaultcontentlanguage = "en"
 enableEmoji = true
 
 [services]
-  [services.disqus]
-    shortname = "loncar"
   [services.googleAnalytics]
     id = 'G-BEWRHJGSN7'
 
 [params]
     author = "Aleš Lončar"
-    description = "Freelance Senior Cloud & DevOps Engineer with 25+ years experience in automation, security, and business transformation"
+    description = "Senior Cloud & DevOps Engineer with 25+ years experience in automation, security, and business transformation"
     keywords = "freelance,cloud devops engineer,automation,security,kubernetes,docker,terraform,ansible,business consultant,ci/cd,cloud transformation"
-    info = "Freelance Senior Cloud & DevOps Engineer"
+    info = "Senior Cloud & DevOps Engineer"
     gravatar = "ales.loncar+github@gmail.com"
 
     faviconSVG = "/img/favicon.ico"
@@ -28,7 +26,7 @@ enableEmoji = true
     favicon_16 = "/img/favicon-16x16.png"
     touchIcon = "/img/apple-touch-icon.png"
 
-    additionalContent = "25+ years crafting software solutions | Specializing in cloud automation & security | Empowering business innovation | Midnight baker | Analog photography enthusiast | Slovenian expat"
+    additionalContent = "25+ years crafting software solutions | Specializing in cloud automation & security | Empowering business innovation | Midnight cook & baker | Analog photography enthusiast | Slovenian expat"
 
     dateformat = "January 2, 2006"
 
@@ -46,8 +44,9 @@ enableEmoji = true
     hideColorSchemeToggle = false
 
     customCSS = ["/css/custom.css"]
+    customJS = ["js/lightbox.js"]
 
-    # Series see also post count
+    # Series see also post-count
     maxSeeAlsoItems = 5
 
 [taxonomies]
@@ -72,23 +71,28 @@ weight = 1
 url = "/about/"
 
 [[menu.main]]
-name = "Blog"
-weight = 2
-url = "/posts/"
-
-[[menu.main]]
 name = "Resume"
-weight = 3
+weight = 2
 url = "/resume/"
 
 [[menu.main]]
-name = "Snippets"
+name = "Blog"
+weight = 3
+url = "/posts/"
+
+[[menu.main]]
+name = "Recipes"
 weight = 4
-url = "/snippets/"
+url = "/recipes/"
+
+[[menu.main]]
+name = "Stage"
+weight = 5
+url = "/stage/"
 
 [[menu.main]]
 name = "Contact"
-weight = 5
+weight = 6
 url = "/contact/"
 
 [markup]

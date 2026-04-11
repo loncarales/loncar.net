@@ -22,6 +22,30 @@ For a secured route using edge termination, we need:
 
 The client provided me with private keys and certificates. The private keys were already in [PEM](https://en.wikipedia.org/wiki/X.509#Certificate_filename_extensions) format, but the certificates were PKCS7 DER-encoded. P7B certificates are Base64 encoded ASCII files and are only supported on Windows OS, [Apache Tomcat](https://tomcat.apache.org/), so we need to convert P7B to PEM format.
 
-Take a look at the following snippet: [Extract all certificate chain from DER-encoded .p7b file]({{< ref "extract-certificates-from-p7b.md" >}})
+Export all certificates into one file:
+
+```bash
+$ base64 -d <P7B_FILE>.p7b | openssl pkcs7 -inform DER -print_certs -out <PEM_FILE>.pem
+```
+
+We'll get three certificates inside `<PEM_FILE>.pem` file, from top to bottom:
+
+1. Certificate for the route in PEM format
+2. CA certificate chain for the route validation in PEM format
+3. Root CA certificate in PEM format
+
+Validate key - certificate pair with following commands:
+
+```bash
+$ openssl pkey -in <PRIVATE>.key -pubout -outform pem | sha256sum
+```
+
+Example output: **bb912b1c6614a0462556b2826b7dce6083a9b58049008a656706234d45abd4c6**
+
+```bash
+$ openssl x509 -in <ROOT_CA>.cer -pubkey -noout -outform pem | sha256sum
+```
+
+Example output: **bb912b1c6614a0462556b2826b7dce6083a9b58049008a656706234d45abd4c6**
 
 > And remember, contributions earn you karma. 😜

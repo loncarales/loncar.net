@@ -92,9 +92,42 @@ git commit -am"appended content to merge.txt"
 git merge new_branch_to_merge_later
 ```
 
-If you would like to setup P4Merge as your favourite git merging tool, take a look at the following snippet:
+If you would like to setup P4Merge as your favourite git merging tool, follow these steps:
 
-[Git for Windows: Set up P4Merge as default mergetool]({{< ref "p4-merge-as-default-mergetool.md" >}})
+Open `git-bash` and type
+
+```bash
+git config --global merge.tool p4merge
+git config --global mergetool.p4merge.cmd "p4merge \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\""
+git config --global mergetool.p4merge.trustExitCode false
+git config --global mergetool.keepBackup false
+git config --global diff.tool p4merge
+git config --global difftool.p4merge.cmd "p4merge \"$LOCAL\" \"$REMOTE\""
+```
+
+The `.gitconfig` should look like this
+
+```ini
+[merge]
+    keepBackup = false
+    tool = p4merge
+[mergetool]
+    prompt = false
+[mergetool "p4merge"]
+    cmd = p4merge \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
+    keepTemporaries = false
+    trustExitCode = false
+    keepBackup = false
+[diff]
+    tool = p4merge
+[difftool]
+    prompt = false
+[difftool "p4merge"]
+    cmd = p4merge \"$LOCAL\" \"$REMOTE\"
+    keepTemporaries = false
+    trustExitCode = false
+    keepBackup = false
+```
 
 You can configure your weapon of choice if you prefer, but you'll need to consult your tool's documentation for detailed instructions.
 

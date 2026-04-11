@@ -9,7 +9,7 @@ I specialize in cloud-native architectures, infrastructure as code, and CI/CD au
 
 I thrive in environments where I can mentor teams while continuously learning and experimenting with emerging technologies. Whether I'm architecting a new platform or troubleshooting a complex distributed system, I bring a deep technical understanding and a collaborative spirit that ensures we deliver the results that matter.
 
-Outside of the terminal, I'm a curious learner, nighttime baker, and analog photography enthusiast. These personal interests not only provide a balance to my professional life but also inspire me to explore the intersection of creativity and engineering in new and exciting ways.
+Outside the terminal, I'm a curious learner, nighttime baker, and analog photography enthusiast. These personal interests not only provide a balance to my professional life but also inspire me to explore the intersection of creativity and engineering in new and exciting ways.
 
 > Uncle Bob in Clean Code states, "the Boy Scout Rule tells us we should leave the code cleaner than we found it." Another words, when we make changes to the code base, we should make sure we are leaving it (checking in to repository) cleaner.
 

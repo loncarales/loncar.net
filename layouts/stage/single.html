@@ -1,0 +1,121 @@
+{{ define "title" }}
+{{ .Title }} · {{ .Site.Title }}
+{{ end }}
+
+{{ define "content" }}
+<section class="container post">
+    <article>
+        <header>
+            <div class="post-title">
+                <h1 class="title">
+                    <a class="title-link" href="{{ .Permalink | safeURL }}">
+                        {{ .Title }}
+                    </a>
+                </h1>
+            </div>
+
+            <div class="post-meta">
+                <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+                {{ .Date | time.Format (.Site.Params.dateFormat | default "January 2, 2006") }}
+                </time>
+            </span>
+                    <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              {{ i18n "reading_time" .ReadingTime }}
+            </span>
+                </div>
+
+                {{ with .GetTerms "categories" }}{{ partial "taxonomy/categories.html" . }}{{ end }}
+                {{ with .GetTerms "tags" }}{{ partial "taxonomy/tags.html" . }}{{ end }}
+            </div>
+        </header>
+
+        <div class="post-content">
+            <section class="stage-meta-card">
+                <div class="stage-meta-grid">
+                    {{ with .Params.concert_date }}
+                    <div class="stage-meta-item">
+                        <div class="stage-meta-icon">
+                            <i class="fa-solid fa-calendar-day" aria-hidden="true"></i>
+                        </div>
+                        <div class="stage-meta-text">
+                            <span class="stage-meta-label">Concert date</span>
+                            <span class="stage-meta-value">{{ . }}</span>
+                        </div>
+                    </div>
+                    {{ end }}
+
+                    {{ with .Params.artist }}
+                    <div class="stage-meta-item">
+                        <div class="stage-meta-icon">
+                            <i class="fa-solid fa-music" aria-hidden="true"></i>
+                        </div>
+                        <div class="stage-meta-text">
+                            <span class="stage-meta-label">Artist</span>
+                            <span class="stage-meta-value">{{ . }}</span>
+                        </div>
+                    </div>
+                    {{ end }}
+
+                    {{ with .Params.venue }}
+                    <div class="stage-meta-item">
+                        <div class="stage-meta-icon">
+                            <i class="fa-solid fa-map-marker-alt" aria-hidden="true"></i>
+                        </div>
+                        <div class="stage-meta-text">
+                            <span class="stage-meta-label">Venue</span>
+                            <span class="stage-meta-value">{{ . }}</span>
+                        </div>
+                    </div>
+                    {{ end }}
+
+                    {{ with .Params.location }}
+                    <div class="stage-meta-item">
+                        <div class="stage-meta-icon">
+                            <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                        </div>
+                        <div class="stage-meta-text">
+                            <span class="stage-meta-label">Location</span>
+                            <span class="stage-meta-value">{{ . }}</span>
+                        </div>
+                    </div>
+                    {{ end }}
+
+                    {{ with .Params.film }}
+                    <div class="stage-meta-item">
+                        <div class="stage-meta-icon">
+                            <i class="fa-solid fa-film" aria-hidden="true"></i>
+                        </div>
+                        <div class="stage-meta-text">
+                            <span class="stage-meta-label">Film</span>
+                            <span class="stage-meta-value">{{ . }}</span>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </section>
+
+            {{ with .Params.featuredImage }}
+            <img src="{{ . }}" alt="Featured image"/>
+            {{ end }}
+
+            {{ .Content }}
+        </div>
+
+        <footer>
+            {{ partial "posts/disqus.html" . }}
+            {{ partial "posts/commento.html" . }}
+            {{ partial "posts/utterances.html" . }}
+            {{ partial "posts/giscus.html" . }}
+            {{ partial "posts/mastodon.html" . }}
+            {{ partial "posts/telegram.html" . }}
+            {{ partial "posts/cusdis.html" . }}
+        </footer>
+    </article>
+
+    {{ partial "posts/math.html" . }}
+</section>
+{{ end }}
