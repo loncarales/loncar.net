@@ -16,9 +16,9 @@ enableEmoji = true
 
 [params]
     author = "Aleš Lončar"
-    description = "Freelance Senior Cloud & DevOps Engineer with 25+ years experience in automation, security, and business transformation"
+    description = "Senior Cloud & DevOps Engineer with 25+ years experience in automation, security, and business transformation"
     keywords = "freelance,cloud devops engineer,automation,security,kubernetes,docker,terraform,ansible,business consultant,ci/cd,cloud transformation"
-    info = "Freelance Senior Cloud & DevOps Engineer"
+    info = "Senior Cloud & DevOps Engineer"
     gravatar = "ales.loncar+github@gmail.com"
 
     faviconSVG = "/img/favicon.ico"

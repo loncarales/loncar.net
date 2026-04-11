@@ -34,6 +34,10 @@
         </header>
 
         <div class="post-content">
+            {{ with .Params.featuredImage }}
+            <img src="{{ . }}" alt="Featured image"/>
+            {{ end }}
+
             {{ with .Params.recipe_description }}
             <section class="recipe-description">
                 <p>{{ . }}</p>

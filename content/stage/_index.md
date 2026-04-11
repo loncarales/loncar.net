@@ -5,18 +5,8 @@ description = "A personal archive of photographs from around the millennium."
 
 A personal archive of photographs from around the millennium: live music, public appearances, and a few memorable encounters captured with a camera in hand.
 
-These photographs were made with a mix of Canon and Nikon film bodies, using manual and autofocus lenses ranging from standard primes to short tele and zooms. Flash was occasionally part of the kit.
+Most of these images were made on film, often in less-than-ideal light. They’re documents of nights out as much as they are photographs, small fragments of noise, light, and atmosphere preserved on 35 mm.
 
-## Equipment Used Back Then
+If you’re curious about the cameras and lenses behind these photos, have a look at the [gear used around the millennium](/stage/gear/).
 
-**Bodies:** Canon EOS 500n, Canon A-1, Canon EOS 50, Nikon FM2n
-
-**Lenses:** Vivitar FD 35-85 mm f/2.8, Canon FD 70-210 mm f/4, Canon FD 35-75 mm f/4, Canon EF 28-70 mm f/3.5-5.6, Tokina AT-X 270AF PRO II (AF 28-70 mm f/2.8), Tokina AT-X 828AF PRO SD (AF 80-200 mm f/2.8), Canon EF 50 mm f/1.8, Nikon manual 50 mm f/1.8, Sigma 70-300 mm f/4-5.6
-
-**Flash:** Metz 40 Mz-1i, Metz 45 CT-4, Canon Speedlite 550 EX
-
-Most of the photos were shot without a flash, it's not allowed at concerts. They were all handheld, and no special filters were used.
-
-## Prints and Licensing
-
-If you’re interested in a print or would like to discuss licensing or purchasing a photo, please [get in touch](/contact/).
+If you’re interested in a print or licensing an image, please [get in touch](/contact/).
