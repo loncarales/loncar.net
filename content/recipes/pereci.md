@@ -1,5 +1,5 @@
 +++
-date = 2022-03-24T00:00:00Z
+date = 2026-04-11T00:00:00Z
 title = "Pereci"
 description = "Traditional braided bread rolls from Prekmurje, Slovenia."
 recipe_description = "Pereci are traditional braided bread rolls that sit somewhere between a pretzel and a bread roll. They can be enjoyed on their own or served alongside a hearty stew."
@@ -61,3 +61,5 @@ There are many versions of this recipe. Pereci were brought from neighboring Hun
 {{< figure src="https://cdn.loncar.net/pereci/pereci-korba.jpg" alt="Soft, golden pereci rings cooling in a kitchen towel" caption="Soft, golden pereci rings cooling in a kitchen towel" >}}
 
 {{< figure src="https://cdn.loncar.net/pereci/pereci-black-cumin.jpg" alt="Twisted pereci rings with black cumin seeds, just out of the oven" caption="Twisted pereci rings with black cumin seeds, just out of the oven" >}}
+
+Vesela kuharija 😋👌
