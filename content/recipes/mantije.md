@@ -1,5 +1,5 @@
 +++
-date = 2026-04-16T22:39:34+02:00
+date = 2026-04-16T00:00:00Z
 title = "Mantije"
 description = "A traditional Balkan meat pie made with thin rolled dough and a rich minced meat filling."
 recipe_description = "Mantije are an old Balkan dish, somewhere between a pie and a pastry, with a fantastic taste that rewards the extra effort."

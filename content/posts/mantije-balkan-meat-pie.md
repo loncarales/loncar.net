@@ -1,5 +1,5 @@
 +++
-date = 2026-04-16T22:39:34+02:00
+date = 2026-04-16T00:00:00Z
 title = "Mantije: a beloved Balkan dish that deserves more attention"
 slug = "mantije-balkan-meat-pie"
 tags = ["Food", "Balkan cuisine", "Cooking", "Tradition", "Hobby"]
