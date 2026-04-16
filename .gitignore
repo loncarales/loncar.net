@@ -3,6 +3,8 @@
 /infra/.envrc
 # Terraform
 /infra/.terraform/
+# Local Data
+/localimages
 
 # Created by https://www.toptal.com/developers/gitignore/api/hugo
 # Edit at https://www.toptal.com/developers/gitignore?templates=hugo

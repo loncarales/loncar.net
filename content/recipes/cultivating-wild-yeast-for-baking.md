@@ -13,7 +13,7 @@ cook_time = ""
 servings = ""
 course = "Reference, Baking"
 country_region = ""
-featuredImage = "https://cdn.loncar.net/wild-yeast-water/tihozitje_01.jpg"
+featuredImage = "https://cdn.loncar.net/recipes/wild-yeast-water/tihozitje_01.jpg"
 ingredients = [
     "1 apple, unpeeled and cut into small pieces",
     "1 handful raisins",
@@ -38,11 +38,11 @@ ingredients = [
 10. If you do not use it often, feed it once a week with a small amount of honey or sugar.
 
 {{< gallery >}}
-https://cdn.loncar.net/wild-yeast-water/natural-wild-yeast-water_01.jpg|Yeast water baking|Needed ingredients for making yeast water.
-https://cdn.loncar.net/wild-yeast-water/natural-wild-yeast-water_02.jpg|Yeast water baking|Place the apple pieces and raisins into a clean jar or bottle.
-https://cdn.loncar.net/wild-yeast-water/natural-wild-yeast-water_03.jpg|Yeast water baking|Pour in enough water to cover the fruit, leaving a little space at the top.
-https://cdn.loncar.net/wild-yeast-water/natural-wild-yeast-water_04.jpg|Yeast water baking|Fruit is strained out, remaining clear yeast water.
-https://cdn.loncar.net/wild-yeast-water/natural-wild-yeast-water_05.jpg|Yeast water baking|Starter built with yeast water and flour, ready for baking.
+https://cdn.loncar.net/recipes/wild-yeast-water/natural-wild-yeast-water_01.jpg|Yeast water baking|Needed ingredients for making yeast water.
+https://cdn.loncar.net/recipes/wild-yeast-water/natural-wild-yeast-water_02.jpg|Yeast water baking|Place the apple pieces and raisins into a clean jar or bottle.
+https://cdn.loncar.net/recipes/wild-yeast-water/natural-wild-yeast-water_03.jpg|Yeast water baking|Pour in enough water to cover the fruit, leaving a little space at the top.
+https://cdn.loncar.net/recipes/wild-yeast-water/natural-wild-yeast-water_04.jpg|Yeast water baking|Fruit is strained out, remaining clear yeast water.
+https://cdn.loncar.net/recipes/wild-yeast-water/natural-wild-yeast-water_05.jpg|Yeast water baking|Starter built with yeast water and flour, ready for baking.
 {{< /gallery >}}
 
 ## Starter Build
@@ -70,7 +70,7 @@ Compared to sourdough, doughs made with yeast water usually have a milder flavor
 
 You can also use yeast water to make fermented beverages, including alcoholic ones. If you want to use yeast water in home brewing, keep in mind that wild yeast does not survive at higher alcohol concentrations. In general, less sugar is used when using a wild starter than when using commercial yeast.
 
-{{< figure src="https://cdn.loncar.net/wild-yeast-water/tihozitje_02.jpg" alt="Breads and pastries baked with apple yeast water" caption="A few baked goods made with a starter from apple yeast water." >}}
+{{< figure src="https://cdn.loncar.net/recipes/wild-yeast-water/tihozitje_02.jpg" alt="Breads and pastries baked with apple yeast water" caption="A few baked goods made with a starter from apple yeast water." >}}
 
 In the photo, I used apple yeast water to bake:
 

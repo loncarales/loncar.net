@@ -13,7 +13,7 @@ cook_time = "1 hour"
 servings = ""
 course = "Everyday, Snack, Baking"
 country_region = "Prekmurje, Slovenia"
-featuredImage = "https://cdn.loncar.net/pereci/pereci-featured.jpg"
+featuredImage = "https://cdn.loncar.net/recipes/pereci/pereci-featured.jpg"
 ingredients = [
     "1 kg wheat flour",
     "40 g yeast",
@@ -25,7 +25,7 @@ ingredients = [
 ]
 +++
 
-{{< figure src="https://cdn.loncar.net/pereci/pereci-roka.jpg" alt="Form the spiral into a ring and gently press the ends together" caption="Form the spiral into a ring and gently press the ends together" >}}
+{{< figure src="https://cdn.loncar.net/recipes/pereci/pereci-roka.jpg" alt="Form the spiral into a ring and gently press the ends together" caption="Form the spiral into a ring and gently press the ends together" >}}
 
 ## Instructions
 
@@ -42,15 +42,15 @@ ingredients = [
 11. Cover the baked rolls with a kitchen towel so they stay soft.
 
 {{< gallery >}}
-https://cdn.loncar.net/pereci/pereci-01.jpg
-https://cdn.loncar.net/pereci/pereci-02.jpg|Pereci|Once the yeast has activated, mix it into the flour.
-https://cdn.loncar.net/pereci/pereci-03.jpg|Pereci|When the dough becomes elastic, add the lard or oil.
-https://cdn.loncar.net/pereci/pereci-04.jpg
-https://cdn.loncar.net/pereci/pereci-05.jpg|Pereci|Leave the dough to rise in a warm place until doubled in size.
-https://cdn.loncar.net/pereci/pereci-06.jpg
-https://cdn.loncar.net/pereci/pereci-07.jpg
-https://cdn.loncar.net/pereci/pereci-08.jpg
-https://cdn.loncar.net/pereci/pereci-09.jpg
+https://cdn.loncar.net/recipes/pereci/pereci-01.jpg
+https://cdn.loncar.net/recipes/pereci/pereci-02.jpg|Pereci|Once the yeast has activated, mix it into the flour.
+https://cdn.loncar.net/recipes/pereci/pereci-03.jpg|Pereci|When the dough becomes elastic, add the lard or oil.
+https://cdn.loncar.net/recipes/pereci/pereci-04.jpg
+https://cdn.loncar.net/recipes/pereci/pereci-05.jpg|Pereci|Leave the dough to rise in a warm place until doubled in size.
+https://cdn.loncar.net/recipes/pereci/pereci-06.jpg
+https://cdn.loncar.net/recipes/pereci/pereci-07.jpg
+https://cdn.loncar.net/recipes/pereci/pereci-08.jpg
+https://cdn.loncar.net/recipes/pereci/pereci-09.jpg
 {{< /gallery >}}
 
 ## Notes
@@ -58,8 +58,8 @@ https://cdn.loncar.net/pereci/pereci-09.jpg
 There are many versions of this recipe. Pereci were brought from neighboring Hungary to Slovenia and are especially typical of Prekmurje, where different ethnic communities have long lived side by side.
 
 
-{{< figure src="https://cdn.loncar.net/pereci/pereci-korba.jpg" alt="Soft, golden pereci rings cooling in a kitchen towel" caption="Soft, golden pereci rings cooling in a kitchen towel" >}}
+{{< figure src="https://cdn.loncar.net/recipes/pereci/pereci-korba.jpg" alt="Soft, golden pereci rings cooling in a kitchen towel" caption="Soft, golden pereci rings cooling in a kitchen towel" >}}
 
-{{< figure src="https://cdn.loncar.net/pereci/pereci-black-cumin.jpg" alt="Twisted pereci rings with black cumin seeds, just out of the oven" caption="Twisted pereci rings with black cumin seeds, just out of the oven" >}}
+{{< figure src="https://cdn.loncar.net/recipes/pereci/pereci-black-cumin.jpg" alt="Twisted pereci rings with black cumin seeds, just out of the oven" caption="Twisted pereci rings with black cumin seeds, just out of the oven" >}}
 
 Vesela kuharija 😋👌
