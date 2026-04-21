@@ -6,6 +6,7 @@ recipe_description = "Mantije are an old Balkan dish, somewhere between a pie an
 slug = "mantije"
 tags = ["baking", "balkan", "bosnia", "serbia", "sandzak", "meat"]
 categories = ["recipes"]
+series = ["Balkan", "Baking"]
 prep_time = "1 hour"
 cook_time = "40 minutes"
 course = "Everyday meals, main course, lunch"

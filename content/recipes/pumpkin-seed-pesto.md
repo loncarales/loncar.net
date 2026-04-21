@@ -1,5 +1,4 @@
 +++
-draft = true
 date = 2026-04-19T00:00:00Z
 title = "Pumpkin Seed Pesto"
 description = "A Prekmurje-inspired pesto made with basil, pumpkin seeds, pumpkin seed oil, and Parmesan."
@@ -12,6 +11,7 @@ prep_time = "10 minutes"
 cook_time = "0 minutes"
 course = "Appetizer, snack"
 country_region = "Prekmurje"
+featuredImage = "https://cdn.loncar.net/recipes/pumpkin-seed-pesto/pesto-feature.jpg"
 ingredients = [
     "1 bunch basil",
     "2 cloves garlic",
@@ -33,9 +33,19 @@ ingredients = [
 5. Mix well and transfer to a jar.
 6. Keep refrigerated until ready to serve.
 
+{{< gallery >}}
+https://cdn.loncar.net/recipes/pumpkin-seed-pesto/pesto-01.jpg|Pumpkin Seed Pesto
+https://cdn.loncar.net/recipes/pumpkin-seed-pesto/pesto-02.jpg|Pumpkin Seed Pesto
+https://cdn.loncar.net/recipes/pumpkin-seed-pesto/pesto-03.jpg|Pumpkin Seed Pesto
+https://cdn.loncar.net/recipes/pumpkin-seed-pesto/pesto-04.jpg|Pumpkin Seed Pesto
+https://cdn.loncar.net/recipes/pumpkin-seed-pesto/pesto-05.jpg|Pumpkin Seed Pesto
+{{< /gallery >}}
+
 ## Notes
 
 Pumpkin seeds and pumpkin seed oil are deeply tied to the flavors of Prekmurje, so this pesto feels a little like a regional twist on a classic idea.
+
+This pesto is my latest discovery. You could almost call it a kind of **Prekmurje-style pseudo pesto**.
 
 It is not the most traditional pesto in the world, but that is exactly why I like it. It has that local character, a good dose of pumpkin seed oil, and just enough garlic to keep things interesting.
 
