@@ -39,6 +39,8 @@ https://cdn.loncar.net/recipes/tikvina-zupa/tikvina-zupa-01.jpg|Pumpkin Cream So
 https://cdn.loncar.net/recipes/tikvina-zupa/tikvina-zupa-02.jpg|Pumpkin Cream Soup
 https://cdn.loncar.net/recipes/tikvina-zupa/tikvina-zupa-03.jpg|Pumpkin Cream Soup|Drizzle the soup with pumpkin seed oil before serving.
 https://cdn.loncar.net/recipes/tikvina-zupa/tikvina-zupa-04.jpg|Pumpkin Cream Soup
+https://cdn.loncar.net/recipes/tikvina-zupa/tikvina-zupa-05.jpg|Pumpkin Cream Soup
+https://cdn.loncar.net/recipes/tikvina-zupa/tikvina-zupa-06.jpg|Pumpkin Cream Soup
 {{< /gallery >}}
 
 ## Notes
