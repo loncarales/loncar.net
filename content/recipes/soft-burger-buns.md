@@ -15,7 +15,7 @@ country_region = "International"
 featuredImage = "https://cdn.loncar.net/recipes/soft-burger-buns/bunsi-featured.jpg"
 ingredients = [
     "500 g flour",
-    "1/2 cube fresh yeast",
+    "1/2 cube fresh yeast ~ 21 g (or 1 packet of dry yeast)",
     "2.5 dl lukewarm water",
     "0.5 dl lukewarm milk",
     "1 egg",

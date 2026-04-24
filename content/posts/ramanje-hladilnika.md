@@ -4,7 +4,7 @@ title = "Ramanje hladilnika: the art of cooking from whatever is there"
 description = "A small tribute to improvisation in the kitchen, family sayings, and the strange joy of turning leftovers into something surprisingly good."
 slug = "ramanje-hladilnika"
 tags = ["Food", "Cooking", "Improv", "Family", "Fridge cooking"]
-categories = ["Food"]
+series = ["Cooking-Baking"]
 +++
 
 {{< figure src="https://cdn.loncar.net/ramanje-hladilnika/ramanje-featured.jpg" alt="Ramanje 2.0: Because everything tastes better when it’s wrapped in golden dough and sprinkled with sesame" caption="Ramanje 2.0: Because everything tastes better when it’s wrapped in golden dough and sprinkled with sesame. 🥟 ✨" >}}
