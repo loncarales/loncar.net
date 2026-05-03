@@ -45,6 +45,7 @@ https://cdn.loncar.net/recipes/mediterranean-pesto-skewers/mediterranean-pesto-s
 https://cdn.loncar.net/recipes/mediterranean-pesto-skewers/mediterranean-pesto-skewers-03.jpg|Mediterranean pesto skewers|Herb mixture
 https://cdn.loncar.net/recipes/mediterranean-pesto-skewers/mediterranean-pesto-skewers-04.jpg|Mediterranean pesto skewers|Salt and pepper
 https://cdn.loncar.net/recipes/mediterranean-pesto-skewers/mediterranean-pesto-skewers-05.jpg|Mediterranean pesto skewers|Chopped pesto ingredients
+https://cdn.loncar.net/recipes/mediterranean-pesto-skewers/mediterranean-pesto-skewers-06.jpg|Mediterranean pesto skewers
 {{< /gallery >}}
 
 ## Notes
