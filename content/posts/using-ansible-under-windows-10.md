@@ -11,7 +11,7 @@ categories = ["Professional Development", "Work", "DevOps"]
 ## What is Ansible?
 
 [Ansible](https://docs.ansible.com/) is open-source software for provisioning, configuration management, and application deployment.
-I've already explained to you that [I love it]({{< ref "loving-my-new-static-blog.md" >}}). It's agent-less, it's easy to write and read, it's ensuring idempotency, it's my number one tool when building automated tasks. It has only one limitation, and it will only run on Unix-line systems (Linux, Unix, BSD).
+I've already explained to you that [I love it]({{< ref "2019-05-29-loving-my-new-static-blog.md" >}}). It's agent-less, it's easy to write and read, it's ensuring idempotency, it's my number one tool when building automated tasks. It has only one limitation, and it will only run on Unix-line systems (Linux, Unix, BSD).
 The running environment can be a "control" virtual machine running on your laptop or somewhere in the cloud. However, with the Windows 10 version 1607 and later we can install compatibility layer for running Linux binary executables natively using Windows Subsystem for Linux (WSL)
 
 ## Using your favourite GNU/Linux distributions on Windows (enabling WSL)
