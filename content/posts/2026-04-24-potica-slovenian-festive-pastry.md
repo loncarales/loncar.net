@@ -18,7 +18,7 @@ Other well-known fillings include tarragon, tarragon with cottage cheese, raisin
 
 Potica has a long history reaching back to the Middle Ages, with early written mentions in the works of Primož Trubar and Janez Vajkard Valvasor. Today it is considered a national symbol of Slovenian cuisine and is often called Slovenia’s culinary ambassador.
 
-I usually bake the mini version of potica, and you can find that recipe [here](/recipes/mini-potica/). It is one of my favorite ways to make this traditional pastry, especially when I want something a little smaller and more playful.
+I usually bake the mini version of potica, and you can find that recipe [here]({{< relref "recipes/2026-04-24-mini-potica.md" >}}). It is one of my favorite ways to make this traditional pastry, especially when I want something a little smaller and more playful.
 
 There is something special about a pastry that carries so much history, identity, and celebration in such a small spiral of dough.
 

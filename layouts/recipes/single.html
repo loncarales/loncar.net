@@ -35,7 +35,12 @@
 
         <div class="post-content">
             {{ with .Params.featuredImage }}
-            <img src="{{ . }}" alt="Featured image"/>
+            <figure>
+                <img src="{{ . }}" alt="{{ $.Params.featuredImageAlt | default $.Title }}">
+                {{ with $.Params.featuredImageCaption }}
+                <figcaption><p>{{ . }}</p></figcaption>
+                {{ end }}
+            </figure>
             {{ end }}
 
             {{ with .Params.recipe_description }}

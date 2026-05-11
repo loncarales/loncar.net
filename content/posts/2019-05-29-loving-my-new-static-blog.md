@@ -81,7 +81,7 @@ Here are the tools I've used for this blog:
 
 > Infrastructure as a code software tool which enables provisioning and adapting virtual infrastructure across all major cloud providers.
 
-* Terraform is my favourite infrastructure orchestrator, besides that is cloud-agnostic and it is written in [Go]({{< ref "2018-01-03-yearly-recap-2017" >}}). It's maintaining the state of your infrastructure using a concept called state files.
+* Terraform is my favourite infrastructure orchestrator, besides that is cloud-agnostic and it is written in [Go]({{< relref "2018-01-03-yearly-recap-2017" >}}). It's maintaining the state of your infrastructure using a concept called state files.
 * Using it to create immutable infrastructure on Scaleway
 
 

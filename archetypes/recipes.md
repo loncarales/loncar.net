@@ -14,5 +14,8 @@ cook_time = ""
 servings = ""
 course = ""
 country_region = ""
+featuredImage = ""
+featuredImageAlt = ""
+featuredImageCaption = ""
 ingredients = []
 +++

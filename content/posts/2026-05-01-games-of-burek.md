@@ -3,8 +3,8 @@ date = 2026-05-01T00:00:00Z
 title = "Games of Burek"
 slug = "games-of-burek"
 description = "A playful dive into the Balkan burek debate: Is burek only meat-filled, or can it be cheese, spinach, or potato? A lighthearted exploration of regional culinary pride and the delicious pastries that spark it."
-tags = ["burek", "balkan", "bosnia", "food", "pita"]
-categories = ["food", "culture"]
+tags = ["Burek", "Balkan", "Bosnia", "Food", "Pita"]
+categories = ["Food", "Culture"]
 series = ["Cooking-Baking"]
 +++
 
