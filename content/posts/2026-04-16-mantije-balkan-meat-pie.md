@@ -19,7 +19,7 @@ It is one of those dishes that always starts a friendly argument at the table, b
 
 The funny part is that this is exactly the kind of dish that makes you feel like a master baker after a few attempts, even though the dough absolutely did not agree with you in the beginning. Mine certainly had a few rebellious phases before it decided to behave.
 
-If you want to try the recipe itself, I [wrote that down](/recipes/mantije/) separately, this post is just the little story behind it.
+If you want to try the recipe itself, I [wrote that down]({{< relref "recipes/2026-04-16-mantije.md" >}}) separately, this post is just the little story behind it.
 
 {{< gallery >}}
 https://cdn.loncar.net/recipes/mantije/mantije-post-01.jpg|Mantije

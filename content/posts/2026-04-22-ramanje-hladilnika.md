@@ -17,7 +17,7 @@ I love that idea. It is not really about improvisation for the sake of improvisa
 
 The best part is that these are often the dishes people remember most. Not because they were planned perfectly, but because they were born from necessity, creativity, and a little bit of kitchen stubbornness.
 
-The [chicken recipe](/recipes/sun-kissed-chicken/) I am sharing next comes straight from that spirit. It started as a "let’s see what happens" kind of dish and ended up being one of those meals that feels much fancier than the effort behind it suggests.
+The [chicken recipe]({{< relref "recipes/2026-04-14-pimp-my-chicken.md" >}}) I am sharing next comes straight from that spirit. It started as a "let’s see what happens" kind of dish and ended up being one of those meals that feels much fancier than the effort behind it suggests.
 
 And honestly, there is something incredibly satisfying about taking random ingredients and turning them into a meal that looks and tastes like you meant to do it all along.
 
