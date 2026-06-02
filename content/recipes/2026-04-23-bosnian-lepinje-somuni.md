@@ -63,6 +63,8 @@ https://cdn.loncar.net/recipes/bosnian-lepinje-somuni/somuni-14.jpg|Somuni
 
 There are many versions of lepinje / somuni, some are made with only water, some with milk, and I like this version especially because of the yogurt.
 
+Check out the recipe for version 2.0 without yogurt: [Somuni 2.0]({{< relref "recipes/2026-05-09-somuni-2-0-traditional-pocket-flatbreads.md" >}}).
+
 They are best eaten warm, fresh from the oven, and wrapped in a towel so they stay soft and airy.
 
 Vesela kuharija 😋👌

@@ -91,8 +91,7 @@ ingredients = [
 https://cdn.loncar.net/recipes/etli-pide/etli-pide-01.jpg|Etli Pide|Divided, shaped, and resting. Giving the gluten a few minutes to relax makes rolling out the boat shapes incredibly easy.
 https://cdn.loncar.net/recipes/etli-pide/etli-pide-02.jpg|Etli Pide|Stretching the dough into elongated ovals right on the parchment paper. Preparing 4 per tray ensures they have plenty of room to expand.
 https://cdn.loncar.net/recipes/etli-pide/etli-pide-03.jpg|Etli Pide|Adding the spiced beef, pepper, and tomato filling. Leaving that small border around the edges is key for the fold.
-https://cdn.loncar.net/recipes/etli-pide/etli-pide-04.jpg|Etli Pide|Shaped into boats and brushed with a rich egg yolk, yogurt, and black cumin glaze. Ready for a hot oven! 🚤
-
+https://cdn.loncar.net/recipes/etli-pide/etli-pide-04.jpg|Etli Pide|Shaped into boats and brushed with a rich egg yolk, yogurt, and black cumin glaze. Ready for a hot oven!
 {{< /gallery >}}
 
 The secret to a good pide is draining the vegetable mixture before adding it to the meat. This keeps the topping rich and flavorful without making the soft dough soggy during baking.
