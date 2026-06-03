@@ -1,4 +1,4 @@
-baseurl = "https://loncar.net"
+baseURL = "https://loncar.net"
 title = "Aleš Lončar"
 
 theme = "hugo-coder"
@@ -6,9 +6,11 @@ theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
+enableEmoji = true
+enableRobotsTXT = false
+
 [pagination]
   pagerSize = 30
-enableEmoji = true
 
 [services]
   [services.googleAnalytics]

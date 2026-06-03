@@ -12,7 +12,7 @@ env:
 jobs:
   build-and-deploy:
     name: Build and Deploy public artifact to S3 bucket
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Check out repository
         uses: actions/checkout@v6
@@ -42,3 +42,9 @@ jobs:
             --delete \
             --acl public-read \
             --cache-control "public, max-age=31536000, immutable"
+
+      - name: Invalidate CloudFlare cache for loncar.net
+        uses: nathanvaughn/actions-cloudflare-purge@v4.0.0
+        with:
+          cf_zone: ${{ secrets.CLOUDFLARE_ZONE }}
+          cf_auth: ${{ secrets.CLOUDFLARE_AUTH_KEY }}
