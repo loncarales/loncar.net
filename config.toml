@@ -51,6 +51,21 @@ enableRobotsTXT = false
     # Series see also post-count
     maxSeeAlsoItems = 5
 
+[params.giscus] # https://giscus.app
+repo = "loncarales/loncar.net-discussions"
+repoID = "R_kgDOTWYMxw"
+category = "General"
+categoryID = "DIC_kwDOTWYMx84DBDWW"
+mapping = "pathname"
+term = ""
+strict = "0"
+reactionsEnabled = "1"
+emitMetadata = "0"
+inputPosition = "top"
+theme = "preferred_color_scheme"
+lang = "en"
+loading = "lazy"
+
 [taxonomies]
   category = "categories"
   series = "series"
