@@ -4,6 +4,7 @@ title = "Resolve Git merge conflicts the unpainful way"
 slug = "resolve-git-merge-conflicts"
 tags = ["Git", "P4Merge"]
 categories = ["Professional Development"]
+series = ["Git-Without-Tears"]
 +++
 
 ## What is a Git Merge Conflict?
@@ -86,9 +87,9 @@ git commit -am 'we are commiting the inital content'
 git checkout -b new_branch_to_merge_later
 echo "totally different content to merge later" > merge.txt
 git commit -am 'edited the content of merge.txt to cause a conflict'
-git checkout master
+git checkout main
 echo "content to append" >> merge.txt
-git commit -am"appended content to merge.txt"
+git commit -am "appended content to merge.txt"
 git merge new_branch_to_merge_later
 ```
 
@@ -138,5 +139,7 @@ $ git mergetool
 ```
 
 You should keep in mind is that you can always undo a merge and go back to the state before the conflict occurred. You're always able to undo and start fresh.
+
+Once you're comfortable resolving merge conflicts manually, learn how to make Git remember your resolutions with [git rerere]({{< relref "2026-07-15-git-rerere-reuse-recorded-resolution.md" >}}).
 
 > And remember, contributions earn you karma. 😜
