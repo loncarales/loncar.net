@@ -4,6 +4,7 @@ title = "Ramanje hladilnika: the art of cooking from whatever is there"
 description = "A small tribute to improvisation in the kitchen, family sayings, and the strange joy of turning leftovers into something surprisingly good."
 slug = "ramanje-hladilnika"
 tags = ["Food", "Cooking", "Improv", "Family", "Fridge cooking"]
+categories = ["Food", "Culture", "Baking"]
 series = ["Cooking-Baking"]
 +++
 

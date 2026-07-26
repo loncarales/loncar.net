@@ -4,7 +4,7 @@ title = "Potica: Slovenia’s beloved festive pastry"
 description = "A short note about potica, its history, traditional fillings, and why it remains one of Slovenia’s most iconic pastries."
 slug = "potica-slovenian-festive-pastry"
 tags = ["Slovenia", "tradition", "baking", "holiday", "dessert"]
-categories = ["Food"]
+categories = ["Food", "Culture", "Baking"]
 series = ["Cooking-Baking"]
 +++
 

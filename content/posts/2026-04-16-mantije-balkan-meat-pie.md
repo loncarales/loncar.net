@@ -3,7 +3,7 @@ date = 2026-04-16T00:00:00Z
 title = "Mantije: a beloved Balkan dish that deserves more attention"
 slug = "mantije-balkan-meat-pie"
 tags = ["Food", "Balkan cuisine", "Cooking", "Tradition", "Hobby"]
-categories = ["Food"]
+categories = ["Food", "Culture", "Baking"]
 series = ["Cooking-Baking"]
 +++
 
