@@ -1,6 +1,6 @@
 +++
 date = 2026-07-26T00:00:00Z
-title = "How to Build a Sourdough Starter from Scratch"
+title = "How to Make a Sourdough Starter from Scratch"
 description = "A simple 6-day summer guide for creating a fresh sourdough starter using only flour, water, time, and patience."
 slug = "how-to-build-a-sourdough-starter-from-scratch"
 tags = ["sourdough", "starter", "bread", "baking", "fermentation"]
@@ -145,6 +145,6 @@ When you want to bake again, take it out of the fridge, feed it, and let it beco
 
 Creating a sourdough starter from scratch is not complicated, but it does require attention.
 
-In warm weather, six days can be enough to build a lively culture. Watch the bubbles, smell the changes, and learn its rhythm.
+In warm weather, six days can be enough to make a lively culture. Watch the bubbles, smell the changes, and learn its rhythm.
 
 Once it is active, you have the foundation for many future breads, flatbreads, wraps, and other fermented doughs.
