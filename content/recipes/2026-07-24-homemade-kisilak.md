@@ -7,7 +7,7 @@ slug = "homemade-kisilak"
 tags = ["prekmurje", "slovenian", "cottage cheese", "raw milk", "cheese", "kisilak", "zero waste"]
 categories = ["recipes"]
 externalLink = ""
-series = ["Prekmurje"]
+series = ["Prekmurje", "Homemade"]
 prep_time = "15 minutes"
 cook_time = "15 minutes"
 servings = "about 500 g cheese from 2-3 liters milk"
@@ -76,7 +76,7 @@ For a softer cheese, drain it for less time. For a firmer cheese, let it hang lo
 The yellowish liquid left in your pot after straining isn't waste, it’s nutrient-dense acid whey, loaded with B vitamins, calcium, and protein.
 
 - **Storage & Freezing:** Kept in a glass jar in the fridge, fresh whey lasts up to 1 week. If you are making a large batch (from 2–3 liters of milk), freeze the extra whey in freezer-safe containers or ice cube trays for up to 6 months. (Tip: Leave 2–3 cm of headspace at the top of jars/containers so they don't crack as the liquid expands!)
-- **In Baking (Best Use!):** Swap cold whey 1:1 for the water or milk in your dough. The natural lactic acid tenderizes the gluten, yielding an remarkably soft crumb and richer flavor.
+- **In Baking (Best Use!):** Swap cold whey 1:1 for the water or milk in your dough. The natural lactic acid tenderizes the gluten, yielding an remarkably soft crumb and richer flavor. See our [Cast Iron Sourdough Whey Focaccia]({{< relref "2026-07-25-cast-iron-sourdough-whey-focaccia.md" >}}) for a perfect example.
 - **In Soups & Stews:** Use it as part of the liquid base for vegetable soups or beef/lamb stews (like our [Lamb Heart Stew]({{< relref "2026-05-07-low-and-slow-lamb-heart-stew-with-potatoes.md" >}}) for a rich, subtle tang.
 - **For Pancakes & Crepes:** Replace milk in pancake or crepe batter for extra fluffiness.
 
